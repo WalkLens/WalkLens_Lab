@@ -13,7 +13,7 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
 
     private bool micPermissionGranted = false;
 
-    private string fromLanguage = "en-US";
+    private string fromLanguage = "ko-KR";
 
     private LunarcomController lunarcomController;
 
@@ -59,12 +59,12 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
             if (recognizer != null)
             {
                 await recognizer.StartContinuousRecognitionAsync().ConfigureAwait(false);
-                recognizedString = "Say something...";
+                recognizedString = "말을 인식시키세요";
             }
         }
         else
         {
-            recognizedString = "This app cannot function without access to the microphone.";
+            recognizedString = "마이크 인식 오류";
         }
     }
 
