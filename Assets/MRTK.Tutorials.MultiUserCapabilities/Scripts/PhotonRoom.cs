@@ -86,23 +86,26 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
             if (!PhotonNetwork.IsMasterClient) return;
 
-            if (TableAnchor.Instance != null) CreateInteractableObjects();
+            //if (TableAnchor.Instance != null) CreateInteractableObjects();
         }
 
         private void CreatPlayer()
         {
             var player = PhotonNetwork.Instantiate(photonUserPrefab.name, Vector3.zero, Quaternion.identity);
+            var translator = PhotonNetwork.Instantiate(roverExplorerPrefab.name, new Vector3(0f, 0f, 0.5f), Quaternion.identity);
         }
 
+        /*         
         private void CreateInteractableObjects()
         {
             var position = roverExplorerLocation.position;
-            var positionOnTopOfSurface = new Vector3(position.x, position.y + roverExplorerLocation.localScale.y / 2,
-                position.z);
+            var positionOnTopOfSurface = new Vector3(position.x, position.y, position.z);
 
             var go = PhotonNetwork.Instantiate(roverExplorerPrefab.name, positionOnTopOfSurface,
                 roverExplorerLocation.rotation);
         }
+         */
+
 
         // private void CreateMainLunarModule()
         // {

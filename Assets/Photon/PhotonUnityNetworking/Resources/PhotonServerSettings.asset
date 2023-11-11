@@ -45,6 +45,9 @@ MonoBehaviour:
   - PunRPC_ToggleExplodedView
   - PunRPC_TogglePlacementHints
   - RespawnSpaceship
+  - PunRPC_ToggleTranslator
+  - sync
+  - PunRPC_ToggleButtonController
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

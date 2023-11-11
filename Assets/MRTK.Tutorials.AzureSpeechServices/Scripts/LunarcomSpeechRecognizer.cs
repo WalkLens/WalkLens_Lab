@@ -1,7 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation. 
-// Licensed under the MIT License.
-
-using UnityEngine;
+﻿using UnityEngine;
 using Microsoft.CognitiveServices.Speech;
 
 public class LunarcomSpeechRecognizer : MonoBehaviour
@@ -12,6 +9,7 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
     private SpeechRecognizer recognizer;
 
     private bool micPermissionGranted = false;
+    ///private bool scanning = false;
 
     private string fromLanguage = "ko-KR";
 
@@ -44,9 +42,9 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
             if (recognizer != null)
             {
                 recognizer.StopContinuousRecognitionAsync();
-            } 
+            }
             recognizer = null;
-            recognizedString = string.Empty;
+            recognizedString = "";
         }
     }
 
@@ -59,7 +57,7 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
             if (recognizer != null)
             {
                 await recognizer.StartContinuousRecognitionAsync().ConfigureAwait(false);
-                recognizedString = "말을 인식시키세요";
+                recognizedString = "음성 인식 중...";
             }
         }
         else
@@ -140,7 +138,7 @@ public class LunarcomSpeechRecognizer : MonoBehaviour
     {
         if (lunarcomController.CurrentRecognitionMode() == RecognitionMode.Speech_Recognizer)
         {
-            if (recognizedString != string.Empty)
+            if (recognizedString != "")
             {
                 lunarcomController.UpdateLunarcomText(recognizedString);
             }

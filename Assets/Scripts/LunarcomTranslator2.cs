@@ -2,7 +2,7 @@ using UnityEngine;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Translation;
 
-public class LunarcomTranslationRecognizer : MonoBehaviour
+public class LunarcomTranslator2 : MonoBehaviour
 {
     public delegate void TranslationRecognizerDelegate();
 
@@ -42,7 +42,6 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
 
         lunarcomController.onSelectRecognitionMode += HandleOnSelectRecognitionMode;
 
-        // 추가 : 입력 언어도 설정할 수 있도록
         switch (FromLanguage)
         {
             case TranslateToLanguage.Russian:
@@ -90,7 +89,7 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
 
     public void HandleOnSelectRecognitionMode(RecognitionMode recognitionMode)
     {
-        if (recognitionMode == RecognitionMode.Tralation_Recognizer)
+        if (recognitionMode == RecognitionMode.Intent_Recognizer)
         {
             recognizedString = fromLanguage + " -> " + toLanguage + "\n" + "무언가 말해보세요...!";
             translatedString = "";
@@ -213,7 +212,7 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
 
     public void UpdateTranslator()
     {
-        if (lunarcomController.CurrentRecognitionMode() == RecognitionMode.Tralation_Recognizer)
+        if (lunarcomController.CurrentRecognitionMode() == RecognitionMode.Intent_Recognizer)
         {
             if (recognizedString != "")
             {
