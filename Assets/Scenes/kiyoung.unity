@@ -481,7 +481,7 @@ PrefabInstance:
     - target: {fileID: 2645002552411527826, guid: 14cae43a723f13c48b7eb9496c8a09ab, type: 3}
       propertyPath: roverExplorerPrefab
       value: 
-      objectReference: {fileID: 8536865730428341783, guid: d12dcdd3396c6bf44abc5cab84f8612e, type: 3}
+      objectReference: {fileID: 7319796546423523605, guid: d12dcdd3396c6bf44abc5cab84f8612e, type: 3}
     - target: {fileID: 2645002552411527826, guid: 14cae43a723f13c48b7eb9496c8a09ab, type: 3}
       propertyPath: roverExplorerLocation
       value: 
