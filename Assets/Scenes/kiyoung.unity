@@ -180,15 +180,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad5b753b73e311143a85055b15cea562, type: 3}
---- !u!114 &404201924 stripped
+--- !u!114 &326667657 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2645002552411527826, guid: 14cae43a723f13c48b7eb9496c8a09ab, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2645002551747710846, guid: 14cae43a723f13c48b7eb9496c8a09ab, type: 3}
   m_PrefabInstance: {fileID: 1626504576}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 354532518a3834348a0df0e4909ce564, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c48f236ea1dd6c48982f619816ddcc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &736489697
@@ -279,6 +279,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aeabbb233e1c2b4ba1fe9294d3a28d0, type: 3}
+--- !u!1 &1010727642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 408360395455969481, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
+  m_PrefabInstance: {fileID: 1234406563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1166698569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -349,7 +354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 408360395455969481, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779626044727, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -362,18 +367,18 @@ PrefabInstance:
     - target: {fileID: 3487018779626044727, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 404201924}
+      objectReference: {fileID: 326667657}
     - target: {fileID: 3487018779626044727, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779626044727, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: JoinRoom
+      value: SetStudentId
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779626044727, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MRTK.Tutorials.MultiUserCapabilities.PhotonRoom, Assembly-CSharp
+      value: MRTK.Tutorials.MultiUserCapabilities.PhotonLobby, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779626044727, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -390,18 +395,18 @@ PrefabInstance:
     - target: {fileID: 3487018779635722902, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 404201924}
+      objectReference: {fileID: 326667657}
     - target: {fileID: 3487018779635722902, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779635722902, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: JoinRoom
+      value: SetTeacherId
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779635722902, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MRTK.Tutorials.MultiUserCapabilities.PhotonRoom, Assembly-CSharp
+      value: MRTK.Tutorials.MultiUserCapabilities.PhotonLobby, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3487018779635722902, guid: bd163ed2ba687b94b87e557ac47643b5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -598,6 +603,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2645002551747710846, guid: 14cae43a723f13c48b7eb9496c8a09ab, type: 3}
+      propertyPath: identificationUI
+      value: 
+      objectReference: {fileID: 1010727642}
     - target: {fileID: 2645002551747710847, guid: 14cae43a723f13c48b7eb9496c8a09ab, type: 3}
       propertyPath: m_Name
       value: NetworkLobby

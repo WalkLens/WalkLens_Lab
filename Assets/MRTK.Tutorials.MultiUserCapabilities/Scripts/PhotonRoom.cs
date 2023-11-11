@@ -72,10 +72,10 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         {
             base.OnJoinedRoom();
 
-            photonPlayers = PhotonNetwork.PlayerList;
-            playersInRoom = photonPlayers.Length;
-            myNumberInRoom = playersInRoom;
-            PhotonNetwork.NickName = myNumberInRoom.ToString();
+            //photonPlayers = PhotonNetwork.PlayerList;
+            //playersInRoom = photonPlayers.Length;
+            //myNumberInRoom = playersInRoom;
+            //PhotonNetwork.NickName = myNumberInRoom.ToString();
 
             StartGame();
         }
