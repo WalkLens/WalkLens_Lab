@@ -1,10 +1,14 @@
 ﻿using Photon.Pun;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MRTK.Tutorials.MultiUserCapabilities
 {
     public class PhotonUser : MonoBehaviour
     {
+        [SerializeField]
+        private TMP_Text idText;
         private PhotonView pv;
         private string username;
 
@@ -14,7 +18,8 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
             if (!pv.IsMine) return;
 
-            username = "User" + PhotonNetwork.NickName;
+            username = PhotonNetwork.NickName;
+            idText.text = username;
             pv.RPC("PunRPC_SetNickName", RpcTarget.AllBuffered, username);
         }
 
