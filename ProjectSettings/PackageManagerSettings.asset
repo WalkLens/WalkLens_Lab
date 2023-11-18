@@ -31,6 +31,9 @@ MonoBehaviour:
     m_Url: https://package.openupm.com
     m_Scopes:
     - com.atteneder
+    - com.openupm
+    - com.realitycollective.service-framework
+    - com.realitycollective.utilities
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
@@ -39,6 +42,6 @@ MonoBehaviour:
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -826
-    m_OriginalInstanceId: -828
+    m_UserModificationsInstanceId: -842
+    m_OriginalInstanceId: -846
   m_LoadAssets: 0
