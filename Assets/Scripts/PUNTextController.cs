@@ -23,24 +23,24 @@ public class PUNTextController : MonoBehaviourPun
     {
         if (!isMine) return;
 
-        Debug.Log("锅开角青");
+        //Debug.Log("锅开角青");
         photonView.RPC("PunRPC_ToggleTranslator", RpcTarget.All);
         photonView.RPC("sync", RpcTarget.All, text.text);
-        Debug.Log("锅开肯丰");
+        //Debug.Log("锅开肯丰");
     }
 
     [PunRPC]
     private void PunRPC_ToggleTranslator()
     {
         translationRecognizer.UpdateTranslator();
-        Debug.Log("锅开RPC 角青");
+        //Debug.Log("锅开RPC 角青");
     }
 
     [PunRPC]
     private void sync(string t)
     {
         text.text = t;
-        Debug.Log("教农");
+        //Debug.Log("教农");
     }
 
 }
