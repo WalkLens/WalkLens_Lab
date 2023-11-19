@@ -299,6 +299,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 399196354}
     m_Modifications:
+    - target: {fileID: 3781183904135439941, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5612701200927934882, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -426,6 +430,30 @@ PrefabInstance:
     - target: {fileID: 6772328118524360799, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetTeacherId
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922321866396592979, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922321866396592979, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922321866396592979, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922321866396592979, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922321866396592979, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922321866396592979, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8076907342480777556, guid: 71b5717970b44ac4297d7e301456b4b6, type: 3}
       propertyPath: m_Name
