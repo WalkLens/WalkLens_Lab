@@ -10,7 +10,8 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public static PhotonLobby Lobby;
         [SerializeField]
         private GameObject identificationUI;
-
+        [SerializeField]
+        private Text stdName;
         private int roomNumber = 1;
         private int userIdCount;
         private bool isIdentified = false;
@@ -94,14 +95,18 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
         public void SetTeacherId()
         {
-            PhotonNetwork.NickName = "Teacher";
+            identificationUI.SetActive(false);
+            PhotonNetwork.NickName = "Supervisor";
             isIdentified = true;
             JoinRoom();
         }
 
         public void SetStudentId()
         {
-            PhotonNetwork.NickName = "Student";
+            identificationUI.SetActive(false);
+            string nickName = stdName.text;
+            Debug.Log("nickName : " + nickName);
+            PhotonNetwork.NickName = nickName;
             isIdentified = true;
             JoinRoom();
         }
@@ -110,7 +115,6 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         {
             if (isIdentified)
             {
-                identificationUI.SetActive(false);
                 Debug.Log("UI비활성화");
                 PhotonNetwork.JoinRandomRoom();
                 Debug.Log("방 진입");
