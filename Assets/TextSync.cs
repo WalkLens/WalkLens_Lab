@@ -8,9 +8,6 @@ public class TextSync : MonoBehaviour
 
     private void Update()
     {
-        if (sourceUIText != null && targetUIText != null)
-        {
-            targetUIText.text = sourceUIText.text; // Text 값을 복사하여 연동
-        }
+        targetUIText.text = sourceUIText.text; // Text 값을 복사하여 연동   
     }
 }
