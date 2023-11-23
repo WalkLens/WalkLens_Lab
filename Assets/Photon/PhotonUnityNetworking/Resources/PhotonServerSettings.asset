@@ -48,6 +48,9 @@ MonoBehaviour:
   - PunRPC_ToggleTranslator
   - sync
   - PunRPC_ToggleButtonController
+  - ReceiveMsg
+  - RPC_Chat
+  - ReceiveMessage
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

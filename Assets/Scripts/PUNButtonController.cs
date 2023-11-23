@@ -9,18 +9,18 @@ public class PUNButtonController : MonoBehaviourPun
     {
         // Cache references
         lunarcombuttonController = GetComponent<LunarcomButtonController>();
-        Debug.Log("buttoncontroller 불러오기");
+        //Debug.Log("buttoncontroller 불러오기");
         lunarcombuttonController.OnTogglePunButtonController += OnToggleButtonController;
-        Debug.Log("buttoncontroller 구독");
+        //Debug.Log("buttoncontroller 구독");
         lunarcombuttonController.IsPunEnabled = true;
-        Debug.Log("buttoncontroller pun 활성화");
+        //Debug.Log("buttoncontroller pun 활성화");
     }
 
     private void OnToggleButtonController()
     {
-        Debug.Log("함수 실행");
+        //Debug.Log("함수 실행");
         photonView.RPC("PunRPC_ToggleButtonController", RpcTarget.All);
-        Debug.Log("RPC 불러오기");
+        //Debug.Log("RPC 불러오기");
     }
 
     [PunRPC]
