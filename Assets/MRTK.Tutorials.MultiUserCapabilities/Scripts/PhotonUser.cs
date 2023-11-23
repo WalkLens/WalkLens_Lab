@@ -9,6 +9,8 @@ namespace MRTK.Tutorials.MultiUserCapabilities
     {
         [SerializeField]
         private TMP_Text idText;
+        [SerializeField]
+        private TMP_Text stepText;
         private PhotonView pv;
         private string username;
 
@@ -19,7 +21,15 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             if (!pv.IsMine) return;
 
             username = PhotonNetwork.NickName;
-            idText.text = username;
+            if (username == "Supervisor")
+            {
+                idText.text = "";
+                stepText.text = "Supervisor";
+            }
+            else 
+            {
+                idText.text = username; 
+            }
             pv.RPC("PunRPC_SetNickName", RpcTarget.AllBuffered, username);
         }
 
