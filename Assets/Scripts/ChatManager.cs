@@ -9,12 +9,15 @@ using TMPro;
 public class ChatManager : MonoBehaviourPunCallbacks
 {
     public GameObject m_Content;
+    public GameObject m_ActionButton;
     //public TMP_InputField m_inputField;
     public Text outputText;
 
     PhotonView photonview;
 
-    GameObject m_ContentText;
+    GameObject m_ActionButton_Frontplate;
+    GameObject m_Frontplate_AnimatedContent;
+    GameObject m_AnimatedContent_Text;
 
     string m_strUserName;
 
@@ -23,7 +26,11 @@ public class ChatManager : MonoBehaviourPunCallbacks
     {
         Screen.SetResolution(960, 600, false);
         PhotonNetwork.ConnectUsingSettings();
-        m_ContentText = m_Content.transform.GetChild(0).gameObject;
+        //m_ContentText = m_Content.transform.GetChild(0).gameObject;
+        m_ActionButton_Frontplate = m_ActionButton.transform.GetChild(2).gameObject;
+        m_Frontplate_AnimatedContent = m_ActionButton_Frontplate.transform.GetChild(0).gameObject;
+        m_AnimatedContent_Text = m_Frontplate_AnimatedContent.transform.GetChild(1).gameObject;
+
         photonview = GetComponent<PhotonView>();
         m_strUserName = PhotonNetwork.LocalPlayer.NickName;
         AddChatMessage("connect user : " + PhotonNetwork.LocalPlayer.NickName);
@@ -70,10 +77,16 @@ public class ChatManager : MonoBehaviourPunCallbacks
 
     void AddChatMessage(string message)
     {
-        GameObject goText = Instantiate(m_ContentText, m_Content.transform);
+        GameObject goText = Instantiate(m_ActionButton, m_Content.transform);
 
-        goText.GetComponent<TextMeshProUGUI>().text = message;
-        m_Content.GetComponent<RectTransform>().anchoredPosition = Vector3.zero;
+        m_ActionButton_Frontplate = goText.transform.GetChild(2).gameObject;
+        m_Frontplate_AnimatedContent = m_ActionButton_Frontplate.transform.GetChild(0).gameObject;
+        m_AnimatedContent_Text = m_Frontplate_AnimatedContent.transform.GetChild(1).gameObject;
+
+        m_AnimatedContent_Text.GetComponent<TextMeshProUGUI>().text = message;
+
+        //goText.GetComponent<TextMeshProUGUI>().text = message;
+        //m_ActionButton.GetComponent<RectTransform>().anchoredPosition = Vector3.zero;
 
     }
 
@@ -87,6 +100,7 @@ public class ChatManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void RPC_Chat(string message)
     {
+        Debug.Log("RPC_Chat : " + message);
         AddChatMessage(message);
     }
 
