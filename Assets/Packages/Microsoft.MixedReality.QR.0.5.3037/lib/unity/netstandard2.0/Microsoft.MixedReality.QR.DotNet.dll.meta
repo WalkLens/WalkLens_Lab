@@ -1,7 +1,5 @@
 fileFormatVersion: 2
-guid: 1ee8efe3a09a92b41b7115000e7480e1
-labels:
-- NuGetForUnity
+guid: 42dd74afe18a74e49b5e0dd221738697
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -14,11 +12,10 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
-      : Any
+      '': Any
     second:
       enabled: 0
       settings:
-        Exclude Android: 0
         Exclude Editor: 0
         Exclude Linux: 0
         Exclude Linux64: 0
@@ -26,8 +23,9 @@ PluginImporter:
         Exclude OSXUniversal: 0
         Exclude Win: 0
         Exclude Win64: 0
-        Exclude WindowsStoreApps: 1
+        Exclude Android: 0
         Exclude iOS: 0
+        Exclude WindowsStoreApps: 1
   - first:
       Any: 
     second:
