@@ -4,8 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/App/Scenes/SampleScene12.unity
+    guid: cc3005463c5aeae4e9451ff305de48ee
   m_configObjects:
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8f0296d1dbc94154ebcfbd1816f52ff5, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fe4884a34c808a4e9be1918722394b5, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 556812ff8eb579d4882f5e68125cf86a, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 2dd16c1a39a9fc94aaf0dd06cbc7c51e,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ca484e955502222428aac08dfdbbbca3,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 28b9d1fd88adcad47ac99cf86453de9b,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a98d0fa9c3657174cb62f300468e2d8a,
+      type: 2}
