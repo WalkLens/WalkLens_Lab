@@ -175,5 +175,8 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Controller
             }
             
         }
+
+
+        //space to add LoadVideo() methods
     }
 }

@@ -5,8 +5,10 @@ using System;
 using System.Threading.Tasks;
 using MRTK.Tutorials.AzureCloudServices.Scripts.Domain;
 using MRTK.Tutorials.AzureCloudServices.Scripts.Utilities;
+using MRTK.Tutorials.AzureCloudServices.Scripts.Controller;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Video;
 #if UNITY_WSA
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +37,11 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Managers
         [SerializeField]
         private GameObject mainMenu = default;
 
+        [Header("Video")]
+        [SerializeField]
+        private VideoPlayer video;
+
+
         [Header("Events")]
         [SerializeField]
         private UnityEvent onCameraStarted = default;
@@ -49,7 +56,11 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Managers
         
         private void Start()
         {
-            OpenMainMenu();
+            //OpenMainMenu();
+           
+            //GameObject videoPlayerObject = GameObject.Find("Video Player");
+            //VideoViewController videoView = videoPlayerObject.GetComponent<VideoViewController>();
+            
         }
 
         // Should be called from DataManager ready callback to ensure DB is ready.

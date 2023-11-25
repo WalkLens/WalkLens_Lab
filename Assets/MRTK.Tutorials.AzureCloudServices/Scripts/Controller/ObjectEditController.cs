@@ -258,6 +258,7 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Controller
         
         private async Task<Sprite> LoadThumbnailImage()
         {
+            //print(trackedObject.Name);
             var imageData = await sceneController.DataManager.DownloadBlob(trackedObject.ThumbnailBlobName);
             var texture = new Texture2D(2, 2);
             texture.LoadImage(imageData);
@@ -272,5 +273,9 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Controller
                 interactable.enabled = state;
             }
         }
+
+
+        //space to add LoadVideo() methods
+
     }
 }

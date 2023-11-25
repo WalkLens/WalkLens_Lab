@@ -35,7 +35,7 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Managers
         private bool tryCreateTableOnStart = true;
         [Header("Blob Settings")]
         [SerializeField]
-        private string blockBlobContainerName = "tracked-objects-thumbnails";
+        public string blockBlobContainerName = "tracked-objects-thumbnails"; //tracked-objects-thumbnails lecture-videos
         [SerializeField]
         private bool tryCreateBlobContainerOnStart = true;
         [Header("Events")]
