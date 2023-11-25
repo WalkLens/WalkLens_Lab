@@ -11686,8 +11686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf3e71ff76a64ce6a63dc8529f51307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeechServiceAPIKey: 2eb83f3cef13433ea2aabe91d7c4e706
-  SpeechServiceRegion: eastus
+  SpeechServiceAPIKey: eb6bc917a59d4c2d88c6c9b1de037526
+  SpeechServiceRegion: koreacentral
   terminal: {fileID: 7319796545460127558}
   connectionLight: {fileID: 7319796546785144741}
   outputText: {fileID: 7319796546291635137}
