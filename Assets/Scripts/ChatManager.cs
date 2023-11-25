@@ -12,6 +12,9 @@ public class ChatManager : MonoBehaviourPunCallbacks
     public GameObject m_ActionButton;
     //public TMP_InputField m_inputField;
     public Text outputText;
+    
+    private bool isMessageReceived = false;
+    private string receivedMessage;
 
     PhotonView photonview;
 
@@ -38,6 +41,18 @@ public class ChatManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
+        if (isMessageReceived)
+        {
+            GameObject goText = Instantiate(m_ActionButton, m_Content.transform);
+
+            m_ActionButton_Frontplate = goText.transform.GetChild(2).gameObject;
+            m_Frontplate_AnimatedContent = m_ActionButton_Frontplate.transform.GetChild(0).gameObject;
+            m_AnimatedContent_Text = m_Frontplate_AnimatedContent.transform.GetChild(1).gameObject;
+
+            m_AnimatedContent_Text.GetComponent<TextMeshProUGUI>().text = receivedMessage;
+            isMessageReceived = false;
+        }
+
         //if (Input.GetKeyDown(KeyCode.Return) && m_inputField.isFocused == false)
         //{
         //    m_inputField.ActivateInputField();
@@ -77,13 +92,15 @@ public class ChatManager : MonoBehaviourPunCallbacks
 
     void AddChatMessage(string message)
     {
-        GameObject goText = Instantiate(m_ActionButton, m_Content.transform);
+        receivedMessage=message;
+        isMessageReceived = true;
+        //GameObject goText = Instantiate(m_ActionButton, m_Content.transform);
 
-        m_ActionButton_Frontplate = goText.transform.GetChild(2).gameObject;
-        m_Frontplate_AnimatedContent = m_ActionButton_Frontplate.transform.GetChild(0).gameObject;
-        m_AnimatedContent_Text = m_Frontplate_AnimatedContent.transform.GetChild(1).gameObject;
+        //m_ActionButton_Frontplate = goText.transform.GetChild(2).gameObject;
+        //m_Frontplate_AnimatedContent = m_ActionButton_Frontplate.transform.GetChild(0).gameObject;
+        //m_AnimatedContent_Text = m_Frontplate_AnimatedContent.transform.GetChild(1).gameObject;
 
-        m_AnimatedContent_Text.GetComponent<TextMeshProUGUI>().text = message;
+        //m_AnimatedContent_Text.GetComponent<TextMeshProUGUI>().text = message;
 
         //goText.GetComponent<TextMeshProUGUI>().text = message;
         //m_ActionButton.GetComponent<RectTransform>().anchoredPosition = Vector3.zero;
