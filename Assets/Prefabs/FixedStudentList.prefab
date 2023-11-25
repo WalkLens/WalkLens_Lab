@@ -7641,7 +7641,7 @@ GameObject:
   - component: {fileID: 3636033338632600352}
   - component: {fileID: 3636033338632600353}
   m_Layer: 5
-  m_Name: FixedCalculator
+  m_Name: FixedStudentList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
