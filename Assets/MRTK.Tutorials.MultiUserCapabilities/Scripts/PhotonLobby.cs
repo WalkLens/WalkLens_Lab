@@ -2,6 +2,7 @@
 using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace MRTK.Tutorials.MultiUserCapabilities
 {
@@ -98,6 +99,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             identificationUI.SetActive(false);
             PhotonNetwork.NickName = "Supervisor";
             isIdentified = true;
+            SceneManager.LoadScene("QRRecognize");
             JoinRoom();
         }
 
@@ -108,6 +110,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             Debug.Log("nickName : " + nickName);
             PhotonNetwork.NickName = nickName;
             isIdentified = true;
+            SceneManager.LoadScene("QRRecognize");
             JoinRoom();
         }
 
