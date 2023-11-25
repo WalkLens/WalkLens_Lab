@@ -1,27 +1,32 @@
-// Copyright (c) Microsoft Corporation. 
-// Licensed under the MIT License.
-
 using UnityEngine;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Translation;
 
 public class LunarcomTranslationRecognizer : MonoBehaviour
 {
+    public delegate void TranslationRecognizerDelegate();
+
+    public TranslateToLanguage FromLanguage = TranslateToLanguage.Korean;
     public TranslateToLanguage TargetLanguage = TranslateToLanguage.Russian;
 
     private string recognizedString = "Select a mode to begin.";
-    private string translatedString = string.Empty;
+    private string translatedString = "";
     private object threadLocker = new object();
+    private bool isPunEnabled;
 
     private TranslationRecognizer translator;
 
     private bool micPermissionGranted = false;
+    ///private bool scanning = false;
 
-    private string fromLanguage = "en-US";
-    private string toLanguage = string.Empty;
+    private string fromLanguage = "";
+    private string toLanguage = "";
 
     private LunarcomController lunarcomController;
-
+    public bool IsPunEnabled
+    {
+        set => isPunEnabled = value;
+    }
     void Start()
     {
         lunarcomController = LunarcomController.lunarcomController;
@@ -37,6 +42,29 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
 
         lunarcomController.onSelectRecognitionMode += HandleOnSelectRecognitionMode;
 
+        // 추가 : 입력 언어도 설정할 수 있도록
+        switch (FromLanguage)
+        {
+            case TranslateToLanguage.Russian:
+                fromLanguage = "ru-RU";
+                break;
+            case TranslateToLanguage.German:
+                fromLanguage = "de-DE";
+                break;
+            case TranslateToLanguage.Chinese:
+                fromLanguage = "zh-HK";
+                break;
+            case TranslateToLanguage.Korean:
+                fromLanguage = "ko-KR";
+                break;
+            case TranslateToLanguage.English:
+                fromLanguage = "en-US";
+                break;
+            case TranslateToLanguage.Japanese:
+                fromLanguage = "ja-JP";
+                break;
+        }
+
         switch (TargetLanguage)
         {
             case TranslateToLanguage.Russian:
@@ -47,7 +75,16 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
                 break;
             case TranslateToLanguage.Chinese:
                 toLanguage = "zh-HK";
-                break; 
+                break;
+            case TranslateToLanguage.Korean:
+                toLanguage = "ko-KR";
+                break;
+            case TranslateToLanguage.English:
+                toLanguage = "en-US";
+                break;
+            case TranslateToLanguage.Japanese:
+                toLanguage = "ja-JP";
+                break;
         }
     }
 
@@ -55,18 +92,19 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
     {
         if (recognitionMode == RecognitionMode.Tralation_Recognizer)
         {
-            recognizedString = "Say something...";
-            translatedString = string.Empty;
+            recognizedString = fromLanguage + " -> " + toLanguage + "\n" + "무언가 말해보세요...!";
+            translatedString = "";
             BeginTranslating();
-        } else
+        }
+        else
         {
             if (translator != null)
             {
                 translator.StopContinuousRecognitionAsync();
             }
             translator = null;
-            recognizedString = string.Empty;
-            translatedString = string.Empty;
+            recognizedString = "";
+            translatedString = "";
         }
     }
 
@@ -86,6 +124,7 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
             recognizedString = "This app cannot function without access to the microphone.";
         }
     }
+
 
     void CreateTranslationRecognizer()
     {
@@ -113,7 +152,7 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
     {
         if (e.Result.Reason == ResultReason.TranslatingSpeech)
         {
-            if (e.Result.Text != string.Empty)
+            if (e.Result.Text != "")
             {
                 recognizedString = e.Result.Text;
 
@@ -153,18 +192,7 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
 
     private void Update()
     {
-        if (lunarcomController.CurrentRecognitionMode() == RecognitionMode.Tralation_Recognizer)
-        {
-            if (recognizedString != string.Empty)
-            {
-                lunarcomController.UpdateLunarcomText(recognizedString);
-
-                if (translatedString != string.Empty)
-                {
-                    lunarcomController.outputText.text += "\n\nTranslation:\n" + translatedString;
-                }
-            }
-        }
+        PunUpdateTranslator();
     }
 
     void OnDestroy()
@@ -174,4 +202,29 @@ public class LunarcomTranslationRecognizer : MonoBehaviour
             translator.Dispose();
         }
     }
+
+    public void PunUpdateTranslator()
+    {
+        if (isPunEnabled)
+            OnToggleTranslator?.Invoke();
+        else
+            UpdateTranslator();
+    }
+
+    public void UpdateTranslator()
+    {
+        if (lunarcomController.CurrentRecognitionMode() == RecognitionMode.Tralation_Recognizer)
+        {
+            if (recognizedString != "")
+            {
+                lunarcomController.UpdateLunarcomText(recognizedString);
+                if (translatedString != "")
+                {
+                    lunarcomController.outputText.text += "\n\n번역된 텍스트:\n" + translatedString;
+                }
+            }
+        }
+    }
+
+    public event TranslationRecognizerDelegate OnToggleTranslator;
 }

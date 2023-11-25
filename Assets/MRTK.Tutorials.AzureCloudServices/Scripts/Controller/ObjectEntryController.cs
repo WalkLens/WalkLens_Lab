@@ -52,7 +52,7 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Controller
         public void SetSearchMode(bool searchModeActive)
         {
             isInSearchMode = searchModeActive;
-            submitButtonLabel.SetText(isInSearchMode ? "Search Object" : "Set Object");
+            submitButtonLabel.SetText(isInSearchMode ? "Search Object" : "Set Your Name");
         }
 
         public async void SubmitQuery()

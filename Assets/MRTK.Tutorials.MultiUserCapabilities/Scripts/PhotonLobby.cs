@@ -1,15 +1,22 @@
 ﻿using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace MRTK.Tutorials.MultiUserCapabilities
 {
     public class PhotonLobby : MonoBehaviourPunCallbacks
     {
         public static PhotonLobby Lobby;
-
+        [SerializeField]
+        private GameObject identificationUI;
+        [SerializeField]
+        private Text stdName;
         private int roomNumber = 1;
         private int userIdCount;
+        private bool isIdentified = false;
+
 
         private void Awake()
         {
@@ -34,12 +41,12 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public override void OnConnectedToMaster()
         {
             var randomUserId = Random.Range(0, 999999);
-            PhotonNetwork.AutomaticallySyncScene = true;
-            PhotonNetwork.AuthValues = new AuthenticationValues();
-            PhotonNetwork.AuthValues.UserId = randomUserId.ToString();
+
+            //PhotonNetwork.AutomaticallySyncScene = true;
+            //PhotonNetwork.AuthValues = new AuthenticationValues();
+            //PhotonNetwork.AuthValues.UserId = randomUserId.ToString();
             userIdCount++;
-            PhotonNetwork.NickName = PhotonNetwork.AuthValues.UserId;
-            PhotonNetwork.JoinRandomRoom();
+            //PhotonNetwork.NickName = PhotonNetwork.AuthValues.UserId;
         }
 
         public override void OnJoinedRoom()
@@ -83,8 +90,38 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
         private void CreateRoom()
         {
-            var roomOptions = new RoomOptions {IsVisible = true, IsOpen = true, MaxPlayers = 10};
+            var roomOptions = new RoomOptions { IsVisible = true, IsOpen = true, MaxPlayers = 10 };
             PhotonNetwork.CreateRoom("Room" + Random.Range(1, 3000), roomOptions);
+        }
+
+        public void SetTeacherId()
+        {
+            identificationUI.SetActive(false);
+            PhotonNetwork.NickName = "Supervisor";
+            isIdentified = true;
+            SceneManager.LoadScene("QRRecognize");
+            JoinRoom();
+        }
+
+        public void SetStudentId()
+        {
+            identificationUI.SetActive(false);
+            string nickName = stdName.text;
+            Debug.Log("nickName : " + nickName);
+            PhotonNetwork.NickName = nickName;
+            isIdentified = true;
+            SceneManager.LoadScene("QRRecognize");
+            JoinRoom();
+        }
+
+        private void JoinRoom()
+        {
+            if (isIdentified)
+            {
+                Debug.Log("UI비활성화");
+                PhotonNetwork.JoinRandomRoom();
+                Debug.Log("방 진입");
+            }
         }
     }
 }

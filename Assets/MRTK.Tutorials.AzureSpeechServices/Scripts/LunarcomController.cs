@@ -1,21 +1,18 @@
-// Copyright (c) Microsoft Corporation. 
-// Licensed under the MIT License.
-
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public enum RecognitionMode { Speech_Recognizer, Intent_Recognizer, Tralation_Recognizer, Disabled, Offline };
 public enum SimuilateOfflineMode { Enabled, Disabled };
-public enum TranslateToLanguage { Russian, German, Chinese };
+public enum TranslateToLanguage { Russian, German, Chinese, Korean, English, Japanese }; // 추가 : Korean, Japanese
 
 public class LunarcomController : MonoBehaviour
 {
     public static LunarcomController lunarcomController = null;
 
     [Header("Speech SDK Credentials")]
-    public string SpeechServiceAPIKey = string.Empty;
-    public string SpeechServiceRegion = string.Empty;
+    public string SpeechServiceAPIKey = "";
+    public string SpeechServiceRegion = "";
 
     [Header("Object References")]
     public GameObject terminal;
@@ -34,14 +31,10 @@ public class LunarcomController : MonoBehaviour
     private void Awake()
     {
         if (lunarcomController == null)
-        {
             lunarcomController = this;
-        }
-        else if (lunarcomController != this)
-        {
-            Destroy(gameObject);
-        }
-
+        // 하나만 생성되는 것을 막아주기 위해 아래 두 줄 주석처리 
+        //else if (lunarcomController != this)
+        //    Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
     }
 
@@ -62,7 +55,8 @@ public class LunarcomController : MonoBehaviour
             {
                 SetupOfflineMode();
             }
-        } else
+        }
+        else
         {
             SetupOnlineMode();
         }
@@ -84,18 +78,18 @@ public class LunarcomController : MonoBehaviour
     {
         if (lunarcomWakeWordRecognizer != null)
         {
-            if (lunarcomWakeWordRecognizer.WakeWord == string.Empty)
+            if (lunarcomWakeWordRecognizer.WakeWord == "")
             {
                 lunarcomWakeWordRecognizer.WakeWord = "*";
                 lunarcomWakeWordRecognizer.DismissWord = "*";
             }
 
-            if (lunarcomWakeWordRecognizer.DismissWord == string.Empty)
+            if (lunarcomWakeWordRecognizer.DismissWord == "")
             {
                 lunarcomWakeWordRecognizer.DismissWord = "*";
             }
         }
-        
+
 
         if (GetComponent<LunarcomTranslationRecognizer>())
         {
@@ -117,7 +111,7 @@ public class LunarcomController : MonoBehaviour
             lunarcomWakeWordRecognizer.WakeWord = "*";
             lunarcomWakeWordRecognizer.DismissWord = "*";
         }
-        
+
         if (GetComponent<LunarcomWakeWordRecognizer>())
         {
             GetComponent<LunarcomWakeWordRecognizer>().enabled = false;
@@ -174,7 +168,7 @@ public class LunarcomController : MonoBehaviour
         onSelectRecognitionMode(speechRecognitionMode);
         if (speechRecognitionMode == RecognitionMode.Disabled)
         {
-            if (outputText.text == "Say something..." || outputText.text == string.Empty)
+            if (outputText.text == "Say something..." || outputText.text == "")
             {
                 outputText.text = "Select a mode to begin.";
             }

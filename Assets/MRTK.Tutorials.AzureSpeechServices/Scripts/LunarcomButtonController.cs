@@ -1,15 +1,15 @@
-﻿// Copyright (c) Microsoft Corporation. 
-// Licensed under the MIT License.
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static MRTK.Tutorials.GettingStarted.PlacementHintsController;
 
 public class LunarcomButtonController : MonoBehaviour
 {
     [Header("Reference Objects")]
     public RecognitionMode speechRecognitionMode = RecognitionMode.Disabled;
+    public delegate void ButtonControllerDelegate();
+    public event ButtonControllerDelegate OnTogglePunButtonController;
 
     [Space(6)]
     [Header("Button States")]
@@ -18,8 +18,13 @@ public class LunarcomButtonController : MonoBehaviour
 
     private Button button;
     private bool isSelected = false;
+    public bool isPunEnabled = true;
 
     private LunarcomController lunarcomController;
+    public bool IsPunEnabled
+    {
+        set => isPunEnabled = value;
+    }
 
     private void Start()
     {
@@ -30,6 +35,14 @@ public class LunarcomButtonController : MonoBehaviour
     public bool GetIsSelected()
     {
         return isSelected;
+    }
+
+    public void PunToggleSelected()
+    {
+        if (isPunEnabled)
+            OnTogglePunButtonController?.Invoke();
+        else
+            ToggleSelected();
     }
 
     public void ToggleSelected()
@@ -47,7 +60,8 @@ public class LunarcomButtonController : MonoBehaviour
             if (lunarcomController.IsOfflineMode())
             {
                 lunarcomController.SelectMode(RecognitionMode.Offline);
-            } else
+            }
+            else
             {
                 lunarcomController.SelectMode(speechRecognitionMode);
             }

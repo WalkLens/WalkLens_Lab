@@ -11,9 +11,12 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
         private Vector3 networkLocalPosition;
         private Quaternion networkLocalRotation;
+        // 추가 : 스케일 변수 추가하여 크기변경도 동기화 되도록
+        private Vector3 networkLocalScale;
 
         private Vector3 startingLocalPosition;
         private Quaternion startingLocalRotation;
+        private Vector3 startingLocalScale;
 
         void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
         {
@@ -21,11 +24,13 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             {
                 stream.SendNext(transform.localPosition);
                 stream.SendNext(transform.localRotation);
+                stream.SendNext(transform.localScale);
             }
             else
             {
-                networkLocalPosition = (Vector3) stream.ReceiveNext();
-                networkLocalRotation = (Quaternion) stream.ReceiveNext();
+                networkLocalPosition = (Vector3)stream.ReceiveNext();
+                networkLocalRotation = (Quaternion)stream.ReceiveNext();
+                networkLocalScale = (Vector3)stream.ReceiveNext();
             }
         }
 
@@ -46,6 +51,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
             networkLocalPosition = startingLocalPosition;
             networkLocalRotation = startingLocalRotation;
+            networkLocalScale = startingLocalScale;
         }
 
         // private void FixedUpdate()
@@ -56,6 +62,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
                 var trans = transform;
                 trans.localPosition = networkLocalPosition;
                 trans.localRotation = networkLocalRotation;
+                trans.localScale = networkLocalScale;
             }
 
             if (photonView.IsMine && isUser)
