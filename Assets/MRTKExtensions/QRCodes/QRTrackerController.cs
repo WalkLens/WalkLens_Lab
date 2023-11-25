@@ -19,6 +19,8 @@ namespace MRTKExtensions.QRCodes
         private QRInfo lastMessage;
         //make points
         public static int Counting = 0;
+
+        public GameObject StartUI;
        
 
         /*public void CheckingPoints()
@@ -126,6 +128,11 @@ namespace MRTKExtensions.QRCodes
             IsTrackingActive = false;
             markerHolder.localScale = Vector3.one * lastMessage.PhysicalSideLength;
             markerDisplay.SetActive(true);
+            StartUI.SetActive(true);
+            StartUI.transform.position = pose.position;
+            //GameObject noticeUI = Instantiate(StartUI, pose.position, pose.rotation);
+
+
             PositionSet?.Invoke(this, pose);
             //audioSource.Play();
         }
