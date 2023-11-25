@@ -408,7 +408,7 @@ public class VideioConteroller : MonoBehaviour
             if(videoName == "video1"){
                 print(filename_arr[2]);
                 SetVideio(filename_arr[2]);
-            }
+            } //dd
             if(videoName == "video2"){
                 SetVideio(filename_arr[3]);
             }
