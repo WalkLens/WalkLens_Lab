@@ -79,6 +79,33 @@ public class VideioConteroller : MonoBehaviour
         */
         loading.gameObject.SetActive(false);
 
+        if(videoName == "pbl"){
+            Download("pbl");
+            print(videoName);
+            cnt = 1;
+        }
+        if(videoName == "meet"){
+            Download("meet");
+            print(videoName);
+            cnt = 1;
+        }
+        if(videoName == "video1"){
+            Download("video1");
+            print(videoName);
+            cnt = 1;
+        }
+        if(videoName == "video2"){
+            Download("video2");
+            print(videoName);
+            cnt = 1;
+        }
+        if(videoName == "YoutubePScik"){
+            Download("YoutubePScik");
+            print(videoName);
+            cnt = 1;
+        }
+
+
         /*
         if (File.Exists(filename))
         {
@@ -135,16 +162,24 @@ public class VideioConteroller : MonoBehaviour
 
     //private string[] filename_arr = new string[5];
     private List<string> filename_arr = new List<string>();
+    private List<string> vidname_arr = new List<string>();
+    private string filename_v;
     
     public void Download(string vid1)
     {
+        //videoName = vid1;
+
         persistentDataPath = Application.persistentDataPath;
         storageReference = GetStorageReference(vid1);
 
 
         localFilenameUriString = PathToPersistentDataPathUriString($"{vid1}.{videoExtention}");
         filename = FileUriStringToPath(localFilenameUriString);
-        print(filename);
+        filename_v = filename;
+
+        //print(filename);
+
+        vidname_arr.Add(vid1);
         filename_arr.Add(filename);
         StartCoroutine(DownloadToFile(storageReference, localFilenameUriString, filename));
 
@@ -297,33 +332,99 @@ public class VideioConteroller : MonoBehaviour
         }
         else
         {
-
-            if(pButton == "vid1"){
-                print(filename_arr[0]);
-                print(pButton);
+            
+            if(videoName == "vid1"){
+                //print(filename_arr[0]);
+                //print(pButton);
                 SetVideio(filename_arr[0]);
             }
-            if(pButton == "vid2"){
-                print(filename_arr[1]);
-                print(pButton);
+            if(videoName == "vid2"){
+                //print(filename_arr[1]);
+                //print(pButton);
                 SetVideio(filename_arr[1]);
             }
-            if(pButton == "vid3"){
-                print(filename_arr[2]);
-                print(pButton);
+            if(videoName == "vid3"){
+                //print(filename_arr[2]);
+                //print(pButton);
                 SetVideio(filename_arr[2]);
             }
-            if(pButton == "vid4"){
+            if(videoName == "vid4"){
                 SetVideio(filename_arr[3]);
             }
-            if(pButton == "vid5"){
+            if(videoName == "vid5"){
                 SetVideio(filename_arr[4]);
             }
-
+            
+            
             vp.Play();
             playAnimator.SetTrigger("Play");
         }
     }
+
+    public void getvideoname(string vidname){
+        videoName = vidname;
+        //print(videoName);
+    }
+
+    public GameObject videoPlayerObject;
+    IEnumerator WaitForVideoPlayerActive()
+    {
+        // videoPlayerObject가 활성화될 때까지 기다림
+        while (!videoPlayerObject.activeInHierarchy)
+        {
+            yield return null; // 다음 프레임까지 대기
+        }
+
+    }
+    public void Click_1btn() 
+    {
+
+        /*
+        if(cnt==1){
+            vp.Play();
+        }
+        cnt += 1;
+        */
+        
+        if(vp.isPlaying)
+        {
+            vp.Pause();
+            playAnimator.SetTrigger("Pause");
+        }
+        else
+        {
+
+            //print(videoName);
+            //print(filename_v);
+            /*
+            if(videoName == "pbl"){
+                print(filename_arr[0]);
+                SetVideio(filename_arr[0]);
+            }
+            if(videoName == "meet"){
+                print(filename_arr[1]);
+                SetVideio(filename_arr[1]);
+            }
+            if(videoName == "video1"){
+                print(filename_arr[2]);
+                SetVideio(filename_arr[2]);
+            }
+            if(videoName == "video2"){
+                SetVideio(filename_arr[3]);
+            }
+            if(videoName == "YoutubePScik"){
+                SetVideio(filename_arr[4]);
+            }
+            */
+            SetVideio(filename_v);
+
+            //StartCoroutine(WaitForVideoPlayerActive());
+            vp.Play();
+            playAnimator.SetTrigger("Play");
+        }
+        
+    }
+
 
     public void Hover()
     {
