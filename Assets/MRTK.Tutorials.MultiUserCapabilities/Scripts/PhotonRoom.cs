@@ -64,7 +64,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             {
                 if (photonUserPrefab != null) pool.ResourceCache.Add(photonUserPrefab.name, photonUserPrefab);
 
-                if (speechToTextPrefab != null) pool.ResourceCache.Add(speechToTextPrefab.name, speechToTextPrefab);
+                //if (speechToTextPrefab != null) pool.ResourceCache.Add(speechToTextPrefab.name, speechToTextPrefab);
             }
         }
 
@@ -92,7 +92,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         private void CreatPlayer()
         {
             var player = PhotonNetwork.Instantiate(photonUserPrefab.name, Vector3.zero, Quaternion.identity);
-            var translator = PhotonNetwork.Instantiate(speechToTextPrefab.name, new Vector3(0f, 0f, 0.5f), Quaternion.identity);
+            //var translator = PhotonNetwork.Instantiate(speechToTextPrefab.name, new Vector3(0f, 0f, 0.5f), Quaternion.identity);
         }
 
         /*         

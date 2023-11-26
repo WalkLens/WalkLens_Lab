@@ -36,7 +36,7 @@ public class ChatManager : MonoBehaviourPunCallbacks
 
         photonview = GetComponent<PhotonView>();
         m_strUserName = PhotonNetwork.LocalPlayer.NickName;
-        AddChatMessage("connect user : " + PhotonNetwork.LocalPlayer.NickName);
+        //AddChatMessage("connect user : " + PhotonNetwork.LocalPlayer.NickName);
     }
 
     void Update()
@@ -61,8 +61,8 @@ public class ChatManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        //m_strUserName = PhotonNetwork.LocalPlayer.NickName;
-        //AddChatMessage("connect user : " + PhotonNetwork.LocalPlayer.NickName);
+        m_strUserName = PhotonNetwork.LocalPlayer.NickName;
+        AddChatMessage("connect user : " + PhotonNetwork.LocalPlayer.NickName);
     }
 
     public void OnEndEditEvent()
