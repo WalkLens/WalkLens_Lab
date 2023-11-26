@@ -8,8 +8,8 @@ public class ChatActivator : MonoBehaviour
 {
     [SerializeField]
     private GameObject chatUI;
-    [SerializeField]
-    private GameObject inputField;
+    //[SerializeField]
+    //private GameObject inputField;
     private bool isSelected = false;
     // Start is called before the first frame update
     public void ToggleChatUI()
@@ -21,7 +21,7 @@ public class ChatActivator : MonoBehaviour
         else
         {
             chatUI.SetActive(true);
-            inputField.SetActive(true);
+            //inputField.SetActive(true);
             isSelected = true;
         }
     }
@@ -29,7 +29,7 @@ public class ChatActivator : MonoBehaviour
     public void Deactivate()
     {
         chatUI.SetActive(false);
-        inputField.SetActive(false);
+        //inputField.SetActive(false);
         isSelected = false;
     }
 }

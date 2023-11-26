@@ -9,8 +9,8 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public static PhotonRoom Room;
 
         [SerializeField] private GameObject photonUserPrefab = default;
-        [SerializeField] private GameObject speechToTextPrefab = default;
-        [SerializeField] private Transform speechToTextLocation = default;
+        //[SerializeField] private GameObject speechToTextPrefab = default;
+        //[SerializeField] private Transform speechToTextLocation = default;
 
         // private PhotonView pv;
         private Player[] photonPlayers;
