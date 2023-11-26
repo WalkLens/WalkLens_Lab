@@ -34,4 +34,7 @@ public class LectureStartManager : MonoBehaviour
         }
         
     }
+
+    public void ResetScene() { UnityEngine.SceneManagement.SceneManager.LoadScene("kiyoung"); }
+        
 }
