@@ -40,13 +40,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
         public override void OnConnectedToMaster()
         {
-            var randomUserId = Random.Range(0, 999999);
-
-            //PhotonNetwork.AutomaticallySyncScene = true;
-            //PhotonNetwork.AuthValues = new AuthenticationValues();
-            //PhotonNetwork.AuthValues.UserId = randomUserId.ToString();
             userIdCount++;
-            //PhotonNetwork.NickName = PhotonNetwork.AuthValues.UserId;
         }
 
         public override void OnJoinedRoom()
