@@ -23,4 +23,4 @@ MonoBehaviour:
       - reference: 16a3125f-31d5-4ec6-a120-8be889a74d27
       - reference: 3dfb96a6-7f67-4f83-835b-32725bc0a2c0
   initializeOnPlay: 0
-  doNotDestroyServiceManagerOnLoad: 1
+  doNotDestroyServiceManagerOnLoad: 0
