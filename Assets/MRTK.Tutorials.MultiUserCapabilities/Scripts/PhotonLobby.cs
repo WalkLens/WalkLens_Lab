@@ -17,7 +17,6 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         private int userIdCount;
         private bool isIdentified = false;
 
-
         private void Awake()
         {
             if (Lobby == null)
@@ -43,6 +42,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             userIdCount++;
         }
 
+        // 포톤 서버룸 입장시
         public override void OnJoinedRoom()
         {
             base.OnJoinedRoom();
@@ -53,11 +53,13 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             Debug.Log("Total players in room: " + (PhotonNetwork.CountOfPlayersInRooms + 1));
         }
 
+        // 포톤 서버룸 조인 실패시 다시 시도
         public override void OnJoinRandomFailed(short returnCode, string message)
         {
             CreateRoom();
         }
 
+        // 포톤 서버룸 생성 실패시 다시 시도
         public override void OnCreateRoomFailed(short returnCode, string message)
         {
             Debug.Log("\nPhotonLobby.OnCreateRoomFailed()");
@@ -65,6 +67,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             CreateRoom();
         }
 
+        // 포톤 서버룸 생성 시 룸넘버 증가
         public override void OnCreatedRoom()
         {
             base.OnCreatedRoom();
@@ -82,13 +85,15 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             Lobby = this;
         }
 
+        // 포톤 서버룸 생성
         private void CreateRoom()
         {
             var roomOptions = new RoomOptions { IsVisible = true, IsOpen = true, MaxPlayers = 10 };
             PhotonNetwork.CreateRoom("Room" + Random.Range(1, 3000), roomOptions);
         }
 
-        public void SetTeacherId()
+        // Identification에서 Supervisor 선택시
+        public void SetSupervisorId()
         {
             identificationUI.SetActive(false);
             PhotonNetwork.NickName = "Supervisor";
@@ -96,6 +101,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             JoinRoom();
         }
 
+        // Identification에서 Student 선택시
         public void SetStudentId()
         {
             identificationUI.SetActive(false);
@@ -106,6 +112,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             JoinRoom();
         }
 
+        // 포톤 서버룸 조인
         private void JoinRoom()
         {
             if (isIdentified)

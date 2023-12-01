@@ -33,12 +33,14 @@ public class ChatManager : MonoBehaviourPunCallbacks
         m_strUserName = PhotonNetwork.LocalPlayer.NickName;
     }
 
+    // 포톤 서버룸 조인시 채팅창에 connect user 로그 띄우기
     public override void OnJoinedRoom()
     {
         m_strUserName = PhotonNetwork.LocalPlayer.NickName;
         AddChatMessage("connect user : " + PhotonNetwork.LocalPlayer.NickName);
     }
 
+    // 채팅 추가
     void AddChatMessage(string message)
     {
         GameObject goText = Instantiate(m_ActionButton, m_Content.transform);
@@ -50,6 +52,7 @@ public class ChatManager : MonoBehaviourPunCallbacks
         m_AnimatedContent_Text.GetComponent<TextMeshProUGUI>().text = message;
     }
 
+    // 채팅창 내용 전송하기
     public void SetInputReturn()
     {
         string strMessage = m_strUserName + " : " + outputText.text;

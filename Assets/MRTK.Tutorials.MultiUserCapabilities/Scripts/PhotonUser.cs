@@ -20,6 +20,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
             if (!pv.IsMine) return;
 
+            // 유저 머리 위에 나오는 UI 이름 세팅
             username = PhotonNetwork.NickName;
             if (username == "Supervisor")
             {

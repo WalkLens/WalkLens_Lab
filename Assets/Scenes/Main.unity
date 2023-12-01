@@ -26390,7 +26390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8326140233783491301, guid: 24d9589008999d841a58d71c89995210, type: 3}
       propertyPath: m_Name
-      value: SupervisortButton
+      value: SupervisorButton
       objectReference: {fileID: 0}
     - target: {fileID: 8326140234404473621, guid: 24d9589008999d841a58d71c89995210, type: 3}
       propertyPath: m_text
@@ -26490,7 +26490,7 @@ PrefabInstance:
       objectReference: {fileID: 460951454}
     - target: {fileID: 8679910228191804802, guid: 24d9589008999d841a58d71c89995210, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTeacherId
+      value: SetSupervisorId
       objectReference: {fileID: 0}
     - target: {fileID: 8679910228191804802, guid: 24d9589008999d841a58d71c89995210, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
