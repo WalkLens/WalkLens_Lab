@@ -48,6 +48,12 @@ public class LectureStartManager : MonoBehaviour
         
     }
 
-    public void ResetScene() { UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);}
+    public void ResetScene() 
+    {
+        // Æ÷Åæ ¼­¹ö ¿¬°á ²÷±â
+        PhotonNetwork.Disconnect();
+        // ¾À ¸®·Îµå
+        UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
         
 }
