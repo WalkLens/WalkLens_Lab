@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "546529950113",
+    "project_id": "hololens-videostream",
+    
+    "storage_bucket": "hololens-videostream.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546529950113:android:925e5b0c527a803f2073e0",
+        "android_client_info": {
+          "package_name": "com.WalkLens.WalkLens_Lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSCH-ntiRlI-R8HByx7WF0AqKtuQ66--A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546529950113:android:fe02c59da4b9e2682073e0",
+        "android_client_info": {
+          "package_name": "com.hololens.videostream"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSCH-ntiRlI-R8HByx7WF0AqKtuQ66--A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
