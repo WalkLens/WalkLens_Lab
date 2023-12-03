@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.azure.spatial-anchors-sdk.core": {
+      "tarball": {
+        "hash": "7b2d5f79f09a",
+        "mtime": 1701614367333,
+        "size": 86357,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.core-2.14.1.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.windows": {
+      "tarball": {
+        "hash": "c59f29caea85",
+        "mtime": 1701614367397,
+        "size": 18379151,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.windows-2.14.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "570cf286e70a",
+        "mtime": 1701614367430,
+        "size": 10451121,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.9.0.tgz"
+      }
+    },
+    "com.microsoft.mrtk.graphicstools.unity": {
+      "tarball": {
+        "hash": "cd59e032bb2e",
+        "mtime": 1701614367476,
+        "size": 16291551,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\com.microsoft.mrtk.graphicstools.unity-0.6.2.tgz"
+      }
+    },
+    "com.microsoft.mrtk.tts.windows": {
+      "tarball": {
+        "hash": "4476b6720999",
+        "mtime": 1701614367477,
+        "size": 50801,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\com.microsoft.mrtk.tts.windows-1.0.1.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.accessibility": {
+      "tarball": {
+        "hash": "5433ec27d86d",
+        "mtime": 1701614367719,
+        "size": 24563,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.accessibility-1.0.0-pre.18.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.audio": {
+      "tarball": {
+        "hash": "71480b7daae2",
+        "mtime": 1701614367720,
+        "size": 8047,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.audio-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.core": {
+      "tarball": {
+        "hash": "c00d0949582c",
+        "mtime": 1701614367721,
+        "size": 130684,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.core-3.0.1.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.diagnostics": {
+      "tarball": {
+        "hash": "1f4bdcd1f233",
+        "mtime": 1701614367722,
+        "size": 12714,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.diagnostics-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.extendedassets": {
+      "tarball": {
+        "hash": "54eb7886bc21",
+        "mtime": 1701614367853,
+        "size": 47308680,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.input": {
+      "tarball": {
+        "hash": "719fc273754c",
+        "mtime": 1701614367864,
+        "size": 2802685,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.input-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.spatialmanipulation": {
+      "tarball": {
+        "hash": "7e88bb47473f",
+        "mtime": 1701614367866,
+        "size": 160441,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.standardassets": {
+      "tarball": {
+        "hash": "1e823b29a693",
+        "mtime": 1701614367878,
+        "size": 4162687,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.standardassets-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.tools": {
+      "tarball": {
+        "hash": "c320c577c32b",
+        "mtime": 1701614367879,
+        "size": 11081,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.tools-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.uxcomponents": {
+      "tarball": {
+        "hash": "58744f787171",
+        "mtime": 1701614367881,
+        "size": 146737,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.uxcomponents.noncanvas": {
+      "tarball": {
+        "hash": "ef598e35f2b0",
+        "mtime": 1701614367882,
+        "size": 100111,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.uxcore": {
+      "tarball": {
+        "hash": "45c07beda63c",
+        "mtime": 1701614367883,
+        "size": 100836,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcore-3.1.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.windowsspeech": {
+      "tarball": {
+        "hash": "ecd1b873a282",
+        "mtime": 1701614367884,
+        "size": 14267,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz"
+      }
+    },
+    "com.microsoft.spatialaudio.spatializer.unity": {
+      "tarball": {
+        "hash": "ef649958b4dc",
+        "mtime": 1701614367713,
+        "size": 83146145,
+        "localPath": "C:\\Users\\kgy\\Documents\\GitHub\\WalkLens_Lab\\Packages\\MixedReality\\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz"
+      }
+    }
+  }
+}
