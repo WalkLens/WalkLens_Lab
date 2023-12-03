@@ -39,7 +39,7 @@
   - `HoloLens 2`
  ### Application Version
   - Unity Editor : 2021.3.30f1
-  - Mixed Reality Tool Kit : MRTK 3.0
+  - Mixed Reality ToolKit : MRTK 3.0
  
 ## 주요 기능 🛠
  ### 추가 예정
