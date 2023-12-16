@@ -1,0 +1,295 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Calculator">
+			<method name="DeleteLastIndex"/>
+			<method name="EraseNum"/>
+			<method name="EraseNum"/>
+			<method name="SelectProperty"/>
+			<method name="SelectProperty"/>
+			<method name="SelectProperty"/>
+			<method name="SelectProperty"/>
+			<method name="TryCalcuate"/>
+			<method name="WriteMicrodot"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+			<method name="WriteNum"/>
+		</type>
+		<type fullname="ChatManager">
+			<method name="SetInputReturn"/>
+		</type>
+		<type fullname="ControlPlayerUI">
+			<method name="NextUI"/>
+			<method name="NextUI"/>
+			<method name="PrevUI"/>
+			<method name="PrevUI"/>
+		</type>
+		<type fullname="LectureStartManager">
+			<method name="ActivateUI"/>
+		</type>
+		<type fullname="LunarcomButtonController">
+			<method name="ToggleSelected"/>
+		</type>
+		<type fullname="MRTK.Tutorials.AzureCloudServices.Scripts.Controller.ObjectCardViewController">
+			<method name="CloseCard"/>
+			<method name="StartComputerVisionDetection"/>
+			<method name="StartFindLocation"/>
+		</type>
+		<type fullname="MRTK.Tutorials.AzureCloudServices.Scripts.Controller.ObjectEntryController">
+			<method name="SetSearchMode"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.ExplodeViewController">
+			<method name="ToggleExplodedView"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.PartAssemblyController">
+			<method name="ResetPlacement"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.PlacementHintsController">
+			<method name="TogglePlacementHints"/>
+		</type>
+		<type fullname="MRTK.Tutorials.MultiUserCapabilities.PhotonLobby">
+			<method name="SetStudentId"/>
+			<method name="SetSupervisorId"/>
+		</type>
+		<type fullname="MRTKExtensions.QRCodes.QRTrackerController">
+			<method name="ResetTracking"/>
+		</type>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.Core" ignoreIfMissing="1">
+		<type fullname="MixedReality.Toolkit.StatefulInteractable">
+			<method name="ForceSetToggled"/>
+			<method name="ForceSetToggled"/>
+		</type>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.SpatialManipulation" ignoreIfMissing="1">
+		<type fullname="MixedReality.Toolkit.SpatialManipulation.SolverHandler">
+			<method name="set_UpdateSolvers"/>
+		</type>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.UXCore" ignoreIfMissing="1">
+		<type fullname="MixedReality.Toolkit.UX.MRTKTMPInputField">
+			<method name="ActivateMRTKTMPInputField"/>
+			<method name="ActivateMRTKTMPInputField"/>
+			<method name="ActivateMRTKTMPInputField"/>
+		</type>
+		<type fullname="MixedReality.Toolkit.UX.MRTKUGUIInputField">
+			<method name="ActivateMRTKUGUIInputField"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

@@ -1,0 +1,288 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem::Register()
+extern void MRTKPerformanceStatsSubsystem_Register_mC06A1C5E3B36611B1F6C37FFAB73AA5FDAEE080A (void);
+// 0x00000002 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem::.ctor()
+extern void MRTKPerformanceStatsSubsystem__ctor_m035064330E56CA5B79BDFC7EA98CC0CF7F60B627 (void);
+// 0x00000003 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::Start()
+extern void PerformanceStatsProvider_Start_m55D919CF702AAAD373C5EBAC47739C82945C87BB (void);
+// 0x00000004 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::Stop()
+extern void PerformanceStatsProvider_Stop_m0756026C15EE292178A5C9884B3B59281B633BB1 (void);
+// 0x00000005 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::FixedUpdate()
+extern void PerformanceStatsProvider_FixedUpdate_m0B421571DA09D318178A4FE60AE29E4EBD830D9D (void);
+// 0x00000006 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::LateUpdate()
+extern void PerformanceStatsProvider_LateUpdate_mFFACD847D9AB5513E1890CDD951AFB4874EDC158 (void);
+// 0x00000007 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::set_RamLimit(System.UInt64)
+extern void PerformanceStatsProvider_set_RamLimit_m53B3E17392780685A2B9BA0045627856FC0F3267 (void);
+// 0x00000008 System.UInt64 MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::get_AllocatedRam()
+extern void PerformanceStatsProvider_get_AllocatedRam_m8C952C8C12A8B42ADAC123140FF5333EA3D44E4D (void);
+// 0x00000009 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::set_AllocatedRam(System.UInt64)
+extern void PerformanceStatsProvider_set_AllocatedRam_m33B09C654FA3CC4330DCEEAA6FE30668BB2F3950 (void);
+// 0x0000000A System.UInt64 MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::get_PeakAllocatedRam()
+extern void PerformanceStatsProvider_get_PeakAllocatedRam_m32D3C4EE4C7285CF90442C100F47130DD925294A (void);
+// 0x0000000B System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::set_PeakAllocatedRam(System.UInt64)
+extern void PerformanceStatsProvider_set_PeakAllocatedRam_m204B17491EA7BB948C496B11E7AE591654B148FD (void);
+// 0x0000000C System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::set_FrameRate(System.Single)
+extern void PerformanceStatsProvider_set_FrameRate_m8D06E490593A82B1483A202E03A46B2DF847D6CE (void);
+// 0x0000000D System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::UpdateFrameRate()
+extern void PerformanceStatsProvider_UpdateFrameRate_mCE0E2C39B19F0935B04EAFEA54D7A4BA2883481C (void);
+// 0x0000000E System.UInt64 MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::GetRamLimit()
+extern void PerformanceStatsProvider_GetRamLimit_mCC8D4B2B2DD850D5E4D91698A46AD3EAB931FFDF (void);
+// 0x0000000F System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::UpdateMemoryStatus()
+extern void PerformanceStatsProvider_UpdateMemoryStatus_mAF112418882BD907FF6647411C3EE56F2E4C020C (void);
+// 0x00000010 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::.ctor()
+extern void PerformanceStatsProvider__ctor_m222C0C1A59052D4DE3D8DDF5979DA50DEA86C1E4 (void);
+// 0x00000011 System.Void MixedReality.Toolkit.Diagnostics.MRTKPerformanceStatsSubsystem/PerformanceStatsProvider::.cctor()
+extern void PerformanceStatsProvider__cctor_m3A39ACB4FB78A2AC6655F70FC5BC54C68D7B76BF (void);
+// 0x00000012 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem::.ctor()
+extern void PerformanceStatsSubsystem__ctor_m6EE391AF47FC0EA7058A68A80F2B4AF77D6E6D4F (void);
+// 0x00000013 System.Boolean MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem::Register(MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo)
+extern void PerformanceStatsSubsystem_Register_m6240C6B63DA15E881C16455DC7C3B9A7B80058C2 (void);
+// 0x00000014 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::set_RamLimit(System.UInt64)
+// 0x00000015 System.UInt64 MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::get_AllocatedRam()
+// 0x00000016 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::set_AllocatedRam(System.UInt64)
+// 0x00000017 System.UInt64 MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::get_PeakAllocatedRam()
+// 0x00000018 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::set_PeakAllocatedRam(System.UInt64)
+// 0x00000019 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::set_FrameRate(System.Single)
+// 0x0000001A System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystem/Provider::.ctor()
+extern void Provider__ctor_m47BD9511E9664AF4AF09B6E8C425F43720C4E82D (void);
+// 0x0000001B System.String MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::get_Name()
+extern void PerformanceStatsSubsystemCinfo_get_Name_m11025B99F066454E50E3AAB4AFBBD1268F194ACF (void);
+// 0x0000001C System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::set_Name(System.String)
+extern void PerformanceStatsSubsystemCinfo_set_Name_mA86C31AC63F4653FD6114E7AF8A71928E9D8349F (void);
+// 0x0000001D System.String MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::get_DisplayName()
+extern void PerformanceStatsSubsystemCinfo_get_DisplayName_m23F03C7C90672216B4B36FFA5CFC70E1DEA765B2 (void);
+// 0x0000001E System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::set_DisplayName(System.String)
+extern void PerformanceStatsSubsystemCinfo_set_DisplayName_m06DC79A1870ED0EE07C1615DA485E2A5AFF9A469 (void);
+// 0x0000001F System.String MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::get_Author()
+extern void PerformanceStatsSubsystemCinfo_get_Author_m09A141B5548FD0CF8BB9DE9478BA7F176069383B (void);
+// 0x00000020 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::set_Author(System.String)
+extern void PerformanceStatsSubsystemCinfo_set_Author_mDC714743F341AD5C94F9B82EDB930313E10AAAE6 (void);
+// 0x00000021 System.Type MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::get_ConfigType()
+extern void PerformanceStatsSubsystemCinfo_get_ConfigType_m0BE6C4CF4D8284FD6397C0903B2D94A352C7928A (void);
+// 0x00000022 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::set_ConfigType(System.Type)
+extern void PerformanceStatsSubsystemCinfo_set_ConfigType_m581D73108FC50400C018925C814CD1E4A3589250 (void);
+// 0x00000023 System.Type MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::get_ProviderType()
+extern void PerformanceStatsSubsystemCinfo_get_ProviderType_mA2850BC11189DF09304AAA1B9D7E605093E4D7E8 (void);
+// 0x00000024 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::set_ProviderType(System.Type)
+extern void PerformanceStatsSubsystemCinfo_set_ProviderType_m9841A8AC13294A4E535817BB2F23AED191F9E767 (void);
+// 0x00000025 System.Type MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::get_SubsystemTypeOverride()
+extern void PerformanceStatsSubsystemCinfo_get_SubsystemTypeOverride_m7B385BA028D570B5CCA700C215552B05F3043CDB (void);
+// 0x00000026 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::set_SubsystemTypeOverride(System.Type)
+extern void PerformanceStatsSubsystemCinfo_set_SubsystemTypeOverride_mF4E01685BF5AD1C173ABAA4EE526DAEECA6A2264 (void);
+// 0x00000027 System.Boolean MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::Equals(MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo)
+extern void PerformanceStatsSubsystemCinfo_Equals_m7C4057588D4B380C93BAEE780D8C50178FAFAE33 (void);
+// 0x00000028 System.Boolean MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::Equals(System.Object)
+extern void PerformanceStatsSubsystemCinfo_Equals_m0BE5B2D90531D541408EA486BD918FBC11D51AF2 (void);
+// 0x00000029 System.Int32 MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo::GetHashCode()
+extern void PerformanceStatsSubsystemCinfo_GetHashCode_m41FDB2F1845F17567A0D3622DB260554EAD7C8F7 (void);
+// 0x0000002A System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::.ctor(MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo)
+extern void PerformanceStatsSubsystemDescriptor__ctor_mA65CCCF1598C511ABE486EA2D46336D280670EE6 (void);
+// 0x0000002B System.String MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::get_Name()
+extern void PerformanceStatsSubsystemDescriptor_get_Name_m90DD0B7EE1501AC2F39E5E17118590E103BA8F6D (void);
+// 0x0000002C System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::set_Name(System.String)
+extern void PerformanceStatsSubsystemDescriptor_set_Name_mCF23CC7644B58032DC894B18257A237F6B4C4999 (void);
+// 0x0000002D System.String MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::get_DisplayName()
+extern void PerformanceStatsSubsystemDescriptor_get_DisplayName_m73D591A628E2E9D9087356E0B913B28E1C28F464 (void);
+// 0x0000002E System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::set_DisplayName(System.String)
+extern void PerformanceStatsSubsystemDescriptor_set_DisplayName_mA18EB63105C594A69096BB6A7829F559EBE2E422 (void);
+// 0x0000002F System.String MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::get_Author()
+extern void PerformanceStatsSubsystemDescriptor_get_Author_m03B515056A5A0DE73354943D54276F4E1E8EC31F (void);
+// 0x00000030 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::set_Author(System.String)
+extern void PerformanceStatsSubsystemDescriptor_set_Author_mC7E7B4C9F0AB7015331753016B0196BF95AC6AC9 (void);
+// 0x00000031 System.Type MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::get_ConfigType()
+extern void PerformanceStatsSubsystemDescriptor_get_ConfigType_m9970D30D349F8D100B29028EE06F34BA41E213E1 (void);
+// 0x00000032 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::set_ConfigType(System.Type)
+extern void PerformanceStatsSubsystemDescriptor_set_ConfigType_mF805114EC3C08DA52A0FC3EEF2BD4052C94725C2 (void);
+// 0x00000033 System.Type MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::get_ProviderType()
+extern void PerformanceStatsSubsystemDescriptor_get_ProviderType_mB9FBC02119FD3064E2E605C044EF384906BDD6EC (void);
+// 0x00000034 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::set_ProviderType(System.Type)
+extern void PerformanceStatsSubsystemDescriptor_set_ProviderType_m48486FFFC979C3A22B029002A3EA50A4732199B5 (void);
+// 0x00000035 System.Type MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::get_SubsystemTypeOverride()
+extern void PerformanceStatsSubsystemDescriptor_get_SubsystemTypeOverride_m9577D43CD9547F39387CB32D4A8C9CA31453924B (void);
+// 0x00000036 System.Void MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::set_SubsystemTypeOverride(System.Type)
+extern void PerformanceStatsSubsystemDescriptor_set_SubsystemTypeOverride_mB54D4C18362ADFD285423ADBABC7246AD0D3A286 (void);
+// 0x00000037 MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemDescriptor::Create(MixedReality.Toolkit.Diagnostics.PerformanceStatsSubsystemCinfo)
+extern void PerformanceStatsSubsystemDescriptor_Create_m96ACDFC7633A1AA93E741A5A73304B429EAD4042 (void);
+static Il2CppMethodPointer s_methodPointers[55] = 
+{
+	MRTKPerformanceStatsSubsystem_Register_mC06A1C5E3B36611B1F6C37FFAB73AA5FDAEE080A,
+	MRTKPerformanceStatsSubsystem__ctor_m035064330E56CA5B79BDFC7EA98CC0CF7F60B627,
+	PerformanceStatsProvider_Start_m55D919CF702AAAD373C5EBAC47739C82945C87BB,
+	PerformanceStatsProvider_Stop_m0756026C15EE292178A5C9884B3B59281B633BB1,
+	PerformanceStatsProvider_FixedUpdate_m0B421571DA09D318178A4FE60AE29E4EBD830D9D,
+	PerformanceStatsProvider_LateUpdate_mFFACD847D9AB5513E1890CDD951AFB4874EDC158,
+	PerformanceStatsProvider_set_RamLimit_m53B3E17392780685A2B9BA0045627856FC0F3267,
+	PerformanceStatsProvider_get_AllocatedRam_m8C952C8C12A8B42ADAC123140FF5333EA3D44E4D,
+	PerformanceStatsProvider_set_AllocatedRam_m33B09C654FA3CC4330DCEEAA6FE30668BB2F3950,
+	PerformanceStatsProvider_get_PeakAllocatedRam_m32D3C4EE4C7285CF90442C100F47130DD925294A,
+	PerformanceStatsProvider_set_PeakAllocatedRam_m204B17491EA7BB948C496B11E7AE591654B148FD,
+	PerformanceStatsProvider_set_FrameRate_m8D06E490593A82B1483A202E03A46B2DF847D6CE,
+	PerformanceStatsProvider_UpdateFrameRate_mCE0E2C39B19F0935B04EAFEA54D7A4BA2883481C,
+	PerformanceStatsProvider_GetRamLimit_mCC8D4B2B2DD850D5E4D91698A46AD3EAB931FFDF,
+	PerformanceStatsProvider_UpdateMemoryStatus_mAF112418882BD907FF6647411C3EE56F2E4C020C,
+	PerformanceStatsProvider__ctor_m222C0C1A59052D4DE3D8DDF5979DA50DEA86C1E4,
+	PerformanceStatsProvider__cctor_m3A39ACB4FB78A2AC6655F70FC5BC54C68D7B76BF,
+	PerformanceStatsSubsystem__ctor_m6EE391AF47FC0EA7058A68A80F2B4AF77D6E6D4F,
+	PerformanceStatsSubsystem_Register_m6240C6B63DA15E881C16455DC7C3B9A7B80058C2,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	Provider__ctor_m47BD9511E9664AF4AF09B6E8C425F43720C4E82D,
+	PerformanceStatsSubsystemCinfo_get_Name_m11025B99F066454E50E3AAB4AFBBD1268F194ACF,
+	PerformanceStatsSubsystemCinfo_set_Name_mA86C31AC63F4653FD6114E7AF8A71928E9D8349F,
+	PerformanceStatsSubsystemCinfo_get_DisplayName_m23F03C7C90672216B4B36FFA5CFC70E1DEA765B2,
+	PerformanceStatsSubsystemCinfo_set_DisplayName_m06DC79A1870ED0EE07C1615DA485E2A5AFF9A469,
+	PerformanceStatsSubsystemCinfo_get_Author_m09A141B5548FD0CF8BB9DE9478BA7F176069383B,
+	PerformanceStatsSubsystemCinfo_set_Author_mDC714743F341AD5C94F9B82EDB930313E10AAAE6,
+	PerformanceStatsSubsystemCinfo_get_ConfigType_m0BE6C4CF4D8284FD6397C0903B2D94A352C7928A,
+	PerformanceStatsSubsystemCinfo_set_ConfigType_m581D73108FC50400C018925C814CD1E4A3589250,
+	PerformanceStatsSubsystemCinfo_get_ProviderType_mA2850BC11189DF09304AAA1B9D7E605093E4D7E8,
+	PerformanceStatsSubsystemCinfo_set_ProviderType_m9841A8AC13294A4E535817BB2F23AED191F9E767,
+	PerformanceStatsSubsystemCinfo_get_SubsystemTypeOverride_m7B385BA028D570B5CCA700C215552B05F3043CDB,
+	PerformanceStatsSubsystemCinfo_set_SubsystemTypeOverride_mF4E01685BF5AD1C173ABAA4EE526DAEECA6A2264,
+	PerformanceStatsSubsystemCinfo_Equals_m7C4057588D4B380C93BAEE780D8C50178FAFAE33,
+	PerformanceStatsSubsystemCinfo_Equals_m0BE5B2D90531D541408EA486BD918FBC11D51AF2,
+	PerformanceStatsSubsystemCinfo_GetHashCode_m41FDB2F1845F17567A0D3622DB260554EAD7C8F7,
+	PerformanceStatsSubsystemDescriptor__ctor_mA65CCCF1598C511ABE486EA2D46336D280670EE6,
+	PerformanceStatsSubsystemDescriptor_get_Name_m90DD0B7EE1501AC2F39E5E17118590E103BA8F6D,
+	PerformanceStatsSubsystemDescriptor_set_Name_mCF23CC7644B58032DC894B18257A237F6B4C4999,
+	PerformanceStatsSubsystemDescriptor_get_DisplayName_m73D591A628E2E9D9087356E0B913B28E1C28F464,
+	PerformanceStatsSubsystemDescriptor_set_DisplayName_mA18EB63105C594A69096BB6A7829F559EBE2E422,
+	PerformanceStatsSubsystemDescriptor_get_Author_m03B515056A5A0DE73354943D54276F4E1E8EC31F,
+	PerformanceStatsSubsystemDescriptor_set_Author_mC7E7B4C9F0AB7015331753016B0196BF95AC6AC9,
+	PerformanceStatsSubsystemDescriptor_get_ConfigType_m9970D30D349F8D100B29028EE06F34BA41E213E1,
+	PerformanceStatsSubsystemDescriptor_set_ConfigType_mF805114EC3C08DA52A0FC3EEF2BD4052C94725C2,
+	PerformanceStatsSubsystemDescriptor_get_ProviderType_mB9FBC02119FD3064E2E605C044EF384906BDD6EC,
+	PerformanceStatsSubsystemDescriptor_set_ProviderType_m48486FFFC979C3A22B029002A3EA50A4732199B5,
+	PerformanceStatsSubsystemDescriptor_get_SubsystemTypeOverride_m9577D43CD9547F39387CB32D4A8C9CA31453924B,
+	PerformanceStatsSubsystemDescriptor_set_SubsystemTypeOverride_mB54D4C18362ADFD285423ADBABC7246AD0D3A286,
+	PerformanceStatsSubsystemDescriptor_Create_m96ACDFC7633A1AA93E741A5A73304B429EAD4042,
+};
+extern void PerformanceStatsSubsystemCinfo_get_Name_m11025B99F066454E50E3AAB4AFBBD1268F194ACF_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_set_Name_mA86C31AC63F4653FD6114E7AF8A71928E9D8349F_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_get_DisplayName_m23F03C7C90672216B4B36FFA5CFC70E1DEA765B2_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_set_DisplayName_m06DC79A1870ED0EE07C1615DA485E2A5AFF9A469_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_get_Author_m09A141B5548FD0CF8BB9DE9478BA7F176069383B_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_set_Author_mDC714743F341AD5C94F9B82EDB930313E10AAAE6_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_get_ConfigType_m0BE6C4CF4D8284FD6397C0903B2D94A352C7928A_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_set_ConfigType_m581D73108FC50400C018925C814CD1E4A3589250_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_get_ProviderType_mA2850BC11189DF09304AAA1B9D7E605093E4D7E8_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_set_ProviderType_m9841A8AC13294A4E535817BB2F23AED191F9E767_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_get_SubsystemTypeOverride_m7B385BA028D570B5CCA700C215552B05F3043CDB_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_set_SubsystemTypeOverride_mF4E01685BF5AD1C173ABAA4EE526DAEECA6A2264_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_Equals_m7C4057588D4B380C93BAEE780D8C50178FAFAE33_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_Equals_m0BE5B2D90531D541408EA486BD918FBC11D51AF2_AdjustorThunk (void);
+extern void PerformanceStatsSubsystemCinfo_GetHashCode_m41FDB2F1845F17567A0D3622DB260554EAD7C8F7_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[15] = 
+{
+	{ 0x0600001B, PerformanceStatsSubsystemCinfo_get_Name_m11025B99F066454E50E3AAB4AFBBD1268F194ACF_AdjustorThunk },
+	{ 0x0600001C, PerformanceStatsSubsystemCinfo_set_Name_mA86C31AC63F4653FD6114E7AF8A71928E9D8349F_AdjustorThunk },
+	{ 0x0600001D, PerformanceStatsSubsystemCinfo_get_DisplayName_m23F03C7C90672216B4B36FFA5CFC70E1DEA765B2_AdjustorThunk },
+	{ 0x0600001E, PerformanceStatsSubsystemCinfo_set_DisplayName_m06DC79A1870ED0EE07C1615DA485E2A5AFF9A469_AdjustorThunk },
+	{ 0x0600001F, PerformanceStatsSubsystemCinfo_get_Author_m09A141B5548FD0CF8BB9DE9478BA7F176069383B_AdjustorThunk },
+	{ 0x06000020, PerformanceStatsSubsystemCinfo_set_Author_mDC714743F341AD5C94F9B82EDB930313E10AAAE6_AdjustorThunk },
+	{ 0x06000021, PerformanceStatsSubsystemCinfo_get_ConfigType_m0BE6C4CF4D8284FD6397C0903B2D94A352C7928A_AdjustorThunk },
+	{ 0x06000022, PerformanceStatsSubsystemCinfo_set_ConfigType_m581D73108FC50400C018925C814CD1E4A3589250_AdjustorThunk },
+	{ 0x06000023, PerformanceStatsSubsystemCinfo_get_ProviderType_mA2850BC11189DF09304AAA1B9D7E605093E4D7E8_AdjustorThunk },
+	{ 0x06000024, PerformanceStatsSubsystemCinfo_set_ProviderType_m9841A8AC13294A4E535817BB2F23AED191F9E767_AdjustorThunk },
+	{ 0x06000025, PerformanceStatsSubsystemCinfo_get_SubsystemTypeOverride_m7B385BA028D570B5CCA700C215552B05F3043CDB_AdjustorThunk },
+	{ 0x06000026, PerformanceStatsSubsystemCinfo_set_SubsystemTypeOverride_mF4E01685BF5AD1C173ABAA4EE526DAEECA6A2264_AdjustorThunk },
+	{ 0x06000027, PerformanceStatsSubsystemCinfo_Equals_m7C4057588D4B380C93BAEE780D8C50178FAFAE33_AdjustorThunk },
+	{ 0x06000028, PerformanceStatsSubsystemCinfo_Equals_m0BE5B2D90531D541408EA486BD918FBC11D51AF2_AdjustorThunk },
+	{ 0x06000029, PerformanceStatsSubsystemCinfo_GetHashCode_m41FDB2F1845F17567A0D3622DB260554EAD7C8F7_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[55] = 
+{
+	13018,
+	8767,
+	8767,
+	8767,
+	8767,
+	8767,
+	7168,
+	8748,
+	7168,
+	8748,
+	7168,
+	7110,
+	8767,
+	8748,
+	8767,
+	8767,
+	13018,
+	8767,
+	12215,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	8767,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	5171,
+	5168,
+	8573,
+	7055,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	8617,
+	7051,
+	12508,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_MixedReality_Toolkit_Diagnostics_CodeGenModule;
+const Il2CppCodeGenModule g_MixedReality_Toolkit_Diagnostics_CodeGenModule = 
+{
+	"MixedReality.Toolkit.Diagnostics.dll",
+	55,
+	s_methodPointers,
+	15,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

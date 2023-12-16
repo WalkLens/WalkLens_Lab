@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.MixedReality.Toolkit;
 using RealityCollective.ServiceFramework.Services;
 using UnityEngine;
 
@@ -128,12 +127,14 @@ namespace MRTKExtensions.QRCodes
             IsTrackingActive = false;
             markerHolder.localScale = Vector3.one * lastMessage.PhysicalSideLength;
             markerDisplay.SetActive(true);
+
+            PositionSet?.Invoke(this, pose);
             StartUI.SetActive(true);
             StartUI.transform.position = pose.position;
             //GameObject noticeUI = Instantiate(StartUI, pose.position, pose.rotation);
 
 
-            PositionSet?.Invoke(this, pose);
+            
             //audioSource.Play();
         }
 

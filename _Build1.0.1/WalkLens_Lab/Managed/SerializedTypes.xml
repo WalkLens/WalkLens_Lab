@@ -1,0 +1,138 @@
+<linker>
+	<assembly fullname="Microsoft.MixedReality.GraphicsTools">
+		<type fullname="Microsoft.MixedReality.GraphicsTools.ProximityLight/LightSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Microsoft.MixedReality.OpenXR">
+		<type fullname="Microsoft.MixedReality.OpenXR.HandTrackingOptions" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.Core">
+		<type fullname="MixedReality.Toolkit.CameraSettings" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.ClassDataBindingProfile" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.DataBindingProfile" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Experimental.BubbleChildHoverEvents" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Experimental.BubbleChildSelectEvents" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[MixedReality.Toolkit.SystemType,MixedReality.Toolkit.BaseSubsystemConfig]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[System.String,MixedReality.Toolkit.UX.StateVisualizer/State]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[System.String,System.UInt32]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2[MixedReality.Toolkit.SystemType,MixedReality.Toolkit.BaseSubsystemConfig]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2[System.String,MixedReality.Toolkit.UX.StateVisualizer/State]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2[System.String,System.UInt32]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SerializableDictionary`2[UnityEngine.GameObject,MixedReality.Toolkit.Input.InteractionModeManager/ManagedInteractorStatus]" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.StatefulTimerEvent" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SystemInterfaceType" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.SystemType" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.TimedFlag" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.Input">
+		<type fullname="MixedReality.Toolkit.Input.BezierDataProvider/BezierPointSet" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.FallbackCompositePoseSource" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.HandJointPoseSource" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.InputActionPoseSource" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.InteractionMode" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.InteractionModeDefinition" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.PinchPoseSource" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.PolyfillHandRayPoseSource" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.Simulation.CameraSimulationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.Simulation.ControllerSimulationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.Input.Simulation.EyeGazeSimulationSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.SpatialManipulation">
+		<type fullname="MixedReality.Toolkit.SpatialManipulation.ObjectManipulator/LogicType" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.UXCore">
+		<type fullname="MixedReality.Toolkit.UX.AnimationEffect" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.UX.DialogButton" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.UX.GraphicTintEffect" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.UX.SetTargetsActiveEffect" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.UX.SpriteTintEffect" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.UX.StateVisualizer/State" preserve="nothing" serialized="true"/>
+		<type fullname="MixedReality.Toolkit.UX.ToggleSelectedEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="PhotonRealtime">
+		<type fullname="Photon.Realtime.AppSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="PhotonUnityNetworking">
+		<type fullname="Photon.Pun.PhotonAnimatorView/SynchronizedLayer" preserve="nothing" serialized="true"/>
+		<type fullname="Photon.Pun.PhotonAnimatorView/SynchronizedParameter" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="RealityCollective.ServiceFramework">
+		<type fullname="RealityCollective.ServiceFramework.Definitions.RuntimePlatformEntry" preserve="nothing" serialized="true"/>
+		<type fullname="RealityCollective.ServiceFramework.Definitions.ServiceConfiguration" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="RealityCollective.Utilities">
+		<type fullname="RealityCollective.Definitions.Utilities.SystemType" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.InputSystem">
+		<type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputActionProperty" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.ActivateEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.DeactivateEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.FocusEnterEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.FocusExitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.HoverExitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.SelectEnterEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.SelectExitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.UI.UIHoverEnterEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.UI.UIHoverExitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractableEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractorEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1[MixedReality.Toolkit.UX.SliderEventData]" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TextCoreFontEngineModule">
+		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

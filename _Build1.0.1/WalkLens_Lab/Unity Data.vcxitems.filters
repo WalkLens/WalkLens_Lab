@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5b724bd2-7e52-45cf-a9f9-2d8dfe6625ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Resources">
+      <UniqueIdentifier>{bec62e1b-1588-4dd2-b6f8-0ee73006fbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\StreamingAssets">
+      <UniqueIdentifier>{77069ec6-61b0-4943-a0e1-68751dbf63ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\il2cpp_data\Metadata">
+      <UniqueIdentifier>{55b970ea-d943-45be-880c-ac0344d7239a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\il2cpp_data\Resources">
+      <UniqueIdentifier>{e6a8fac4-0818-4071-af96-57cab8cf69f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\UnitySubsystems\MicrosoftOpenXRPlugin">
+      <UniqueIdentifier>{3631d19c-3628-4636-8d6c-464867e88e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\UnitySubsystems\UnityOpenXR">
+      <UniqueIdentifier>{bc04ad74-2470-47f2-85a5-124374c29a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\il2cpp_data">
+      <UniqueIdentifier>{50af5dc8-60b4-42a6-8e80-62dbee55f1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\UnitySubsystems">
+      <UniqueIdentifier>{f5ffa7b9-ad24-4e36-b6e1-757d0e1c2fff}</UniqueIdentifier>
+    </Filter>
+    <AppxManifest Include="$(MSBuildThisFileDirectory)Package.appxmanifest" />
+    <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
+    <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)UnityGenerated.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)UnityGenerated.h" />
+    <None Include="$(MSBuildThisFileDirectory)Data\boot.config">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\globalgamemanagers">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\globalgamemanagers.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level0">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level0.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\resources.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\resources.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\resources.resource">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\RuntimeInitializeOnLoads.json">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\ScriptingAssemblies.json">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
+      <Filter>Data\Resources</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
+      <Filter>Data\Resources</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\google-services-desktop.json">
+      <Filter>Data\StreamingAssets</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Metadata\global-metadata.dat">
+      <Filter>Data\il2cpp_data\Metadata</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <Filter>Data\il2cpp_data\Resources</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <Filter>Data\il2cpp_data\Resources</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
+      <Filter>Data\UnitySubsystems\MicrosoftOpenXRPlugin</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
+      <Filter>Data\UnitySubsystems\UnityOpenXR</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)lib_burst_generated.dll" />
+    <None Include="$(MSBuildThisFileDirectory)lib_burst_generated.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)AzureSpatialAnchors.dll" />
+    <None Include="$(MSBuildThisFileDirectory)AzureSpatialAnchors.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)CoarseRelocUW.dll" />
+    <None Include="$(MSBuildThisFileDirectory)CoarseRelocUW.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)AudioPluginMicrosoftSpatializerCrossPlatform.dll" />
+    <None Include="$(MSBuildThisFileDirectory)AudioPluginMicrosoftSpatializerCrossPlatform.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.lu.dll" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.lu.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.dll" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.dll" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.kws.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.dll" />
+    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.core.dll" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.core.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.CognitiveServices.Speech.extension.audio.sys.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)HrtfDsp.dll" />
+    <None Include="$(MSBuildThisFileDirectory)HrtfDsp.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)openxr_loader.dll" />
+    <None Include="$(MSBuildThisFileDirectory)openxr_loader.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.dll" />
+    <None Include="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb" />
+  </ItemGroup>
+</Project>
