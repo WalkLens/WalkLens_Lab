@@ -983,7 +983,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: Down
           m_Mode: 1
@@ -999,7 +999,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: UP
           m_Mode: 1
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 678445012350612114}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
         m_MethodName: SetVideoTime
         m_Mode: 1
@@ -1586,7 +1586,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: Down
           m_Mode: 1
@@ -1602,7 +1602,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: UP
           m_Mode: 1
@@ -15453,6 +15453,7 @@ MonoBehaviour:
   BackStepButton: {fileID: 4672424490713591064}
   ForwardStepButton: {fileID: 4672424491930797373}
   StepNotice: {fileID: 6049127787364040891}
+  lectureToggleManager: {fileID: 0}
 --- !u!1 &4672424490998789665
 GameObject:
   m_ObjectHideFlags: 0
@@ -29794,7 +29795,7 @@ MonoBehaviour:
   <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 678445012350612114}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
         m_MethodName: Click_1btn
         m_Mode: 1
@@ -30355,7 +30356,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2573456376608522358}
   - component: {fileID: 5755984267532827671}
-  - component: {fileID: 678445012350612114}
   - component: {fileID: 678445012350612115}
   - component: {fileID: 678445012350612113}
   - component: {fileID: 9158016125640125777}
@@ -30396,34 +30396,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9158016125640125778}
   m_CullTransparentMesh: 1
---- !u!114 &678445012350612114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9158016125640125778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744770fdd9b25c14ea0ec2a3b68edce6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoName: pbl
-  videoExtention: mp4
-  downloadButton: {fileID: 0}
-  playButton: {fileID: 0}
-  dButton: {fileID: 0}
-  pButton: {fileID: 0}
-  videioAnimator: {fileID: 678445010751460471}
-  playAnimator: {fileID: 678445011143696561}
-  vp: {fileID: 678445012350612113}
-  progressbar: {fileID: 678445011703171311}
-  isClicked: 0
-  bottomController: {fileID: 678445010892223499}
-  loading: {fileID: 678445010902947747}
-  isLoading: 0
-  cnt: 0
-  videoPlayerObject: {fileID: 0}
 --- !u!114 &678445012350612115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30441,7 +30413,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: Hover
           m_Mode: 1
@@ -30457,7 +30429,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: Exit
           m_Mode: 1
@@ -30473,7 +30445,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 678445012350612114}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
           m_MethodName: Click
           m_Mode: 1

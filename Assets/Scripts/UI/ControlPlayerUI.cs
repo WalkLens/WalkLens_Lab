@@ -15,35 +15,33 @@ public class ControlPlayerUI : MonoBehaviour
 
     public TextMeshPro StepNotice;
 
-    private ToggleCollection toggleCollection;
+    public LectureToggleManager lectureToggleManager;
 
     //public PressableButton[] pressableButtons = new PressableButton[maxStepNumber];
 
     public void NextUI()
     {
-        if (nowstepNumber == maxStepNumber-1) //딱 그 전 구간에서 넘어가는거면, 다음 스텝 버튼을 없앤다
-            {
-                ForwardStepButton.SetActive(false);
-            }    
+          
   
         if (nowstepNumber < maxStepNumber) // 최대보다 작은 구간
         {
             BackStepButton.SetActive(true);
-            nowstepNumber++;  
-                     
+            nowstepNumber++;       
         }
-        
-        toggleCollection.CurrentIndex = nowstepNumber;
+
+        if (nowstepNumber == maxStepNumber) //딱 그 전 구간에서 넘어가는거면, 다음 스텝 버튼을 없앤다
+        {
+            ForwardStepButton.SetActive(false);
+        }
+
+
         ControlUIPage(nowstepNumber);
 
     }
 
     public void PrevUI()
     {
-        if (nowstepNumber == minStepNumber+1)
-        {
-            BackStepButton.SetActive(false);    
-        }
+        
 
         if (nowstepNumber > minStepNumber) // 최소보다 
         {
@@ -51,8 +49,13 @@ public class ControlPlayerUI : MonoBehaviour
             nowstepNumber--;
         }
 
-        toggleCollection.CurrentIndex = nowstepNumber;
-        
+        if (nowstepNumber == minStepNumber)
+        {
+            BackStepButton.SetActive(false);
+        }
+
+
+
         ControlUIPage(nowstepNumber);
 
     }
@@ -61,9 +64,7 @@ public class ControlPlayerUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        toggleCollection = new ToggleCollection();
         
-
         /*
         GameObject playerUIObject = this.gameObject;
         Transform cameraTransform = Camera.main.transform;
@@ -80,10 +81,31 @@ public class ControlPlayerUI : MonoBehaviour
     public void ControlUIPage(int nowstepNumber)
     {
         StepNotice.text = $"Lecture {nowstepNumber+1}";
+        lectureToggleManager.ClickLectureButtonUI(nowstepNumber);
         //Video 관련 스크립트
         //Toggle 번호 관련 스크립트
     }
 
+    public void ReceiveNumfromToggle(int toggleNum)
+    {
+        StepNotice.text = $"Lecture {toggleNum + 1}";
+        nowstepNumber = toggleNum;
+        if (nowstepNumber == minStepNumber)
+        {
+            ForwardStepButton.SetActive(true);
+            BackStepButton.SetActive(false);
+        }else if (nowstepNumber == maxStepNumber)
+        {
+            ForwardStepButton.SetActive(false);
+            BackStepButton.SetActive(true);
+        }
+        else
+        {
+            ForwardStepButton.SetActive(true);
+            BackStepButton.SetActive(true);
+        }
+
+    }
 
     
 

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using MixedReality.Toolkit.UX;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,13 +13,14 @@ public class LectureToggleManager : MonoBehaviour
     public Image toggleOffImage;
     public Image toggleOnImage;
 
+    public ControlPlayerUI controlPlayerUI;
     public FontIconSelector[] fontIconSelectors; // 128, 24
     public int lectureNums;
     private void Start()
     {
         fontIconSelectors = lectureInfo.GetComponentsInChildren<FontIconSelector>();
         lectureNums = fontIconSelectors.Length;
-        ClickLectureButtonUI(1);
+        ClickLectureButtonUI(0);
     }
 
     public void ClickLectureButtonUI(int lectureIndex)
@@ -29,6 +31,8 @@ public class LectureToggleManager : MonoBehaviour
         }
 
         fontIconSelectors[lectureIndex].CurrentIconName = "Icon 128";
+        Debug.Log(lectureIndex);
+        controlPlayerUI.ReceiveNumfromToggle(lectureIndex);
     }
     public void ToggleOn()
     {
@@ -52,4 +56,7 @@ public class LectureToggleManager : MonoBehaviour
     {
         lectureInfo.SetActive(true);
     }
+
+
+
 }
