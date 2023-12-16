@@ -2,15 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Calculator : MonoBehaviour
 {
     [SerializeField] private PhysicalProperty selectedProperty;
+    [SerializeField] private PhysicalProperty prevProperty;
     [SerializeField] private TextMeshProUGUI[] textMeshProUGUI;
+    [SerializeField] private Material originMaterial;
+    [SerializeField] private Material onClickedMaterial;
+    [SerializeField] private RawImage[] optionRawImages;
     private float[] values;
     void Start()
     {
         selectedProperty = PhysicalProperty.MW;
+        prevProperty = selectedProperty;
         EraseNum();
     }
 
@@ -32,10 +38,16 @@ public class Calculator : MonoBehaviour
 
     public void EraseNum()
     {
-        textMeshProUGUI[0].text = "";
+        for (int i = 0; i < textMeshProUGUI.Length; i++)
+        {
+            textMeshProUGUI[i].text = "";
+        }
+        /*textMeshProUGUI[0].text = "";
         textMeshProUGUI[1].text = "";
         textMeshProUGUI[2].text = "";
-        textMeshProUGUI[3].text = "";
+        textMeshProUGUI[3].text = "";*/
+        SetAllPropertyOriginMaterial();
+
     }
 
     public void DeleteLastIndex()
@@ -56,6 +68,80 @@ public class Calculator : MonoBehaviour
         }
     }
 
+    private void SetPrevMaterial(PhysicalProperty prevProperty)
+    {
+        switch (prevProperty)
+        {
+            case PhysicalProperty.MW:
+                optionRawImages[0].material = originMaterial;
+                break;
+            case PhysicalProperty.M:
+                optionRawImages[1].material = originMaterial;
+                break;
+            case PhysicalProperty.mg:
+                optionRawImages[2].material = originMaterial;
+                break;
+            case PhysicalProperty.ml:
+                optionRawImages[3].material = originMaterial;
+                break;
+        }
+    }
+    public void OnClickedChangeBGMaterial(int optionIndex)
+    {
+        Debug.Log($"ChangeBGMaterial : {optionIndex}");
+        switch (optionIndex)
+        {
+            case 0:
+                SetPrevMaterial(prevProperty);
+                optionRawImages[0].material = onClickedMaterial;
+                prevProperty = PhysicalProperty.MW;
+                break;
+            case 1:
+                SetPrevMaterial(prevProperty);
+                optionRawImages[1].material = onClickedMaterial;
+                prevProperty = PhysicalProperty.M;
+                break;
+            case 2:
+                SetPrevMaterial(prevProperty);
+                optionRawImages[2].material = onClickedMaterial;
+                prevProperty = PhysicalProperty.mg;
+                break;
+            case 3:
+                SetPrevMaterial(prevProperty);
+                optionRawImages[3].material = onClickedMaterial;
+                prevProperty = PhysicalProperty.ml;
+                break;
+        }
+        // 1번 선택 -> 1번만 선택된 mat, 나머지 선택되지 않은 mat
+        /*switch (optionIndex)
+        {
+            case 0:
+                optionRawImages[0].material = onClickedMaterial;
+                optionRawImages[1].material = originMaterial;
+                optionRawImages[2].material = originMaterial;
+                optionRawImages[3].material = originMaterial;
+                break;
+            case 1:
+                optionRawImages[0].material = originMaterial;
+                optionRawImages[1].material = onClickedMaterial;
+                optionRawImages[2].material = originMaterial;
+                optionRawImages[3].material = originMaterial;
+                break;
+            case 2:
+                optionRawImages[0].material = originMaterial;
+                optionRawImages[1].material = originMaterial;
+                optionRawImages[2].material = onClickedMaterial;
+                optionRawImages[3].material = originMaterial;
+                break;
+            case 3:
+                optionRawImages[0].material = originMaterial;
+                optionRawImages[1].material = originMaterial;
+                optionRawImages[2].material = originMaterial;
+                optionRawImages[3].material = onClickedMaterial;
+                break;
+        }*/
+    }
+    
     public string GetDeletedLastWord(string textNum)
     {
         if (string.IsNullOrEmpty(textNum))
@@ -65,6 +151,14 @@ public class Calculator : MonoBehaviour
 
         // 마지막 인덱스의 문자를 제외한 부분을 가져옴
         return textNum.Substring(0, textNum.Length - 1);
+    }
+
+    private void SetAllPropertyOriginMaterial()
+    {
+        for (int i = 0; i < optionRawImages.Length; i++)
+        {
+            optionRawImages[i].material = originMaterial;    
+        }
     }
     public void SelectProperty(int propertyName)
     {
@@ -97,6 +191,7 @@ public class Calculator : MonoBehaviour
                 break;
             }
         }
+        SetAllPropertyOriginMaterial();
     }
 
     private float CalculateRemainder(int nonInputPropertyNum)
