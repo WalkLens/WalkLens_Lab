@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.MixedReality.Toolkit;
+
 using UnityEngine;
 
 namespace MRTKExtensions.QRCodes

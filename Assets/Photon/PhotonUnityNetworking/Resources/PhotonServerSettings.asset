@@ -51,6 +51,8 @@ MonoBehaviour:
   - ReceiveMsg
   - RPC_Chat
   - ReceiveMessage
+  - RPC_RoomAddBtn
+  - RPC_StudentAddBtn
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
