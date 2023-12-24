@@ -19,12 +19,6 @@
  AR 교육 플랫폼에 대한 아이디에이션이 진행된 이후, 다양한 교육 환경 중 실험실 내에서의 환경이 본 팀에서 구현하고자 하는 공간 컴퓨팅(Spatial Computing) 및 교육에 적합하다고 판단하였고,
  이후 관련 리서칭, UI/UX 디자인, 기술 구현을 통해 본 서비스에 대한 유저 테스트를 거쳐 검증을 진행해보려고 합니다.
  
- ### 와이어 프레임(Figma)
- https://www.figma.com/file/6f7L4AA668AWvGSbDTetuy/Walklens-Wireframe?type=design&node-id=0%3A1&mode=design&t=eN080W626U3KV4tb-1
-
- ### 기능 명세서
- https://docs.google.com/presentation/d/1IUoKWB8WkIyY_-rOgKYv_-AqK-IfaXaEQWoAPP6VRm4/edit#slide=id.g29a228f1b95_0_247
- 
  ### 개발 방법론
   * Agile
   * Scrum
