@@ -10,7 +10,7 @@ public class ChatManager : MonoBehaviourPunCallbacks
 {
     public GameObject m_Content;
     public GameObject m_ActionButton;
-    public Text outputText;
+    public TextMeshProUGUI outputText;
     PhotonView photonview;
 
     GameObject m_ActionButton_Frontplate;
