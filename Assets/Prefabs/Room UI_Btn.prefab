@@ -489,12 +489,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5911990690257068137}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 31, y: -15.999994}
-  m_SizeDelta: {x: 0, y: 31.999989}
+  m_AnchoredPosition: {x: 40, y: 0.000005722046}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7318669594948418914
 CanvasRenderer:
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uF5BE"
+  m_text: "\uF125"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9b0d0ee11ff70b04d901a29b519cbaa0, type: 2}
   m_sharedMaterial: {fileID: 5762245003366665926, guid: 9b0d0ee11ff70b04d901a29b519cbaa0, type: 2}
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fontIcons: {fileID: 11400000, guid: b490f983baa13694cb7e5ecc6bd0dae3, type: 2}
-  currentIconName: Icon 117
+  currentIconName: Icon 34
   textMeshProComponent: {fileID: 8407563113221698696}
   iconFontAsset: {fileID: 0}
 --- !u!1 &3610216587527690608
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 3610216587527690611}
   - component: {fileID: 3610216587527690610}
   m_Layer: 5
-  m_Name: StudentNameTMP
+  m_Name: RoomNameTMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,18 +790,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3610216587527690608}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5054660841907581734}
-  m_RootOrder: 4
+  m_Father: {fileID: 5911990690257068137}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3610216587527690611
 CanvasRenderer:
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: James
+  m_text: Room
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -858,14 +858,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -979,6 +979,7 @@ GameObject:
   - component: {fileID: 2015813885040529898}
   - component: {fileID: 5891032263387603968}
   - component: {fileID: 7996412654112108239}
+  - component: {fileID: 1896731280644824272}
   m_Layer: 5
   m_Name: Room UI_Btn
   m_TagString: Untagged
@@ -1002,7 +1003,6 @@ RectTransform:
   - {fileID: 5911990691141347964}
   - {fileID: 5911990690695911287}
   - {fileID: 714726078314193721}
-  - {fileID: 3610216587527690609}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1241,7 +1241,19 @@ MonoBehaviour:
         m_Calls: []
   <OnClicked>k__BackingField:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1896731280644824272}
+        m_TargetAssemblyTypeName: ConnectRoom, Assembly-CSharp
+        m_MethodName: ActivateSwitchRoomUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
@@ -1312,8 +1324,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 198.03996, y: 29.999954, z: 26.38652}
-  m_Center: {x: -0.9800186, y: -0.000022888184, z: 4.6067348}
+  m_Size: {x: 0, y: 0, z: 26.38652}
+  m_Center: {x: 0, y: 0, z: 4.6067348}
 --- !u!114 &5054660841907581730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1633,6 +1645,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeItSayItLabel: {fileID: 6616847228220624113}
   positionControl: {fileID: 0}
+--- !u!114 &1896731280644824272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054660841907581753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197cc167154eeba47b0d3301d9a67141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomNameTMP: {fileID: 3610216587527690610}
 --- !u!1 &5911990690257068138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,6 +1688,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6214322942801937116}
+  - {fileID: 3610216587527690609}
   - {fileID: 8919626194988441645}
   m_Father: {fileID: 5911990690695911287}
   m_RootOrder: 0

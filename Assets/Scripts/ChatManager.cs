@@ -24,10 +24,6 @@ public class ChatManager : MonoBehaviourPunCallbacks
     {
         Screen.SetResolution(960, 600, false);
         PhotonNetwork.ConnectUsingSettings();
-        m_ActionButton_Frontplate = m_ActionButton.transform.GetChild(2).gameObject;
-        m_Frontplate_AnimatedContent = m_ActionButton_Frontplate.transform.GetChild(0).gameObject;
-        m_AnimatedContent_Text = m_Frontplate_AnimatedContent.transform.GetChild(1).gameObject;
-
         photonview = GetComponent<PhotonView>();
         m_strUserName = PhotonNetwork.LocalPlayer.NickName;
     }
@@ -40,7 +36,7 @@ public class ChatManager : MonoBehaviourPunCallbacks
     }
 
     // 채팅 추가
-    void AddChatMessage(string message)
+    public void AddChatMessage(string message)
     {
         GameObject goText = Instantiate(m_ActionButton, m_Content.transform);
 
