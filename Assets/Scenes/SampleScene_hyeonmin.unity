@@ -1248,16 +1248,16 @@ MonoBehaviour:
   <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1133640258}
-        m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
-        m_MethodName: getvideoname
+      - m_Target: {fileID: 1133640263}
+        m_TargetAssemblyTypeName: StreamingVideoPlayer, Assembly-CSharp
+        m_MethodName: OnClickUrlDispatcher
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: YoutubePScik
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/YoutubePScik.mp4?sv=2023-01-03&st=2024-01-12T09%3A00%3A06Z&se=2024-01-13T09%3A15%3A06Z&sr=c&sp=r&sig=XJUAyteSxPtGIOalrPQ00wZBpe4NHxO%2FGAG7MBuAqtc%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -3883,6 +3883,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
@@ -3998,7 +4002,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+    - {fileID: 5313574064064786947, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
 --- !u!224 &150211005 stripped
 RectTransform:
@@ -5450,18 +5456,18 @@ PrefabInstance:
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1071594077}
+      objectReference: {fileID: 1071594082}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click_1btn
+      value: OnClickHandler
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: VideioConteroller, Assembly-CSharp
+      value: StreamingVideoPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8319,6 +8325,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
@@ -8434,7 +8444,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+    - {fileID: 5313574064064786947, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
 --- !u!224 &338953930 stripped
 RectTransform:
@@ -10354,6 +10366,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
@@ -10469,7 +10485,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+    - {fileID: 5313574064064786947, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
 --- !u!224 &426614970 stripped
 RectTransform:
@@ -11689,18 +11707,18 @@ PrefabInstance:
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1133640258}
+      objectReference: {fileID: 1133640263}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click_1btn
+      value: OnClickHandler
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: VideioConteroller, Assembly-CSharp
+      value: StreamingVideoPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -16780,6 +16798,11 @@ Transform:
   m_Father: {fileID: 1983095725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &779066725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4593678718300351938, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+  m_PrefabInstance: {fileID: 150211004}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &781117079
 GameObject:
   m_ObjectHideFlags: 0
@@ -16963,17 +16986,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bindingProfile: {fileID: 11400000, guid: c2554c7933796464c965ae0c4acf9561, type: 2}
---- !u!114 &793787691 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
-  m_PrefabInstance: {fileID: 426614969}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744770fdd9b25c14ea0ec2a3b68edce6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &804774581
 GameObject:
   m_ObjectHideFlags: 0
@@ -18711,6 +18723,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.032, z: 0.031322923}
   m_Center: {x: 0, y: 0, z: -0.00033853762}
+--- !u!1 &895428992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4593678718300351938, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+  m_PrefabInstance: {fileID: 1347244893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &900261076
 GameObject:
   m_ObjectHideFlags: 0
@@ -19213,18 +19230,18 @@ PrefabInstance:
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1563424719}
+      objectReference: {fileID: 1563424724}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click_1btn
+      value: OnClickHandler
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: VideioConteroller, Assembly-CSharp
+      value: StreamingVideoPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -21357,6 +21374,11 @@ Transform:
   m_Father: {fileID: 1809898546}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1061282987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4593678718300351938, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+  m_PrefabInstance: {fileID: 338953929}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1062325451
 GameObject:
   m_ObjectHideFlags: 0
@@ -21511,17 +21533,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
---- !u!114 &1071594077 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+--- !u!328 &1071594079 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_PrefabInstance: {fileID: 150211004}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1071594082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779066725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744770fdd9b25c14ea0ec2a3b68edce6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bc2bc2efb1e25148aed1a2a90e79516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  videoPlayerComponent: {fileID: 1071594079}
 --- !u!1 &1074462087
 GameObject:
   m_ObjectHideFlags: 0
@@ -21737,18 +21766,18 @@ PrefabInstance:
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1363761630}
+      objectReference: {fileID: 1363761635}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click_1btn
+      value: OnClickHandler
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: VideioConteroller, Assembly-CSharp
+      value: StreamingVideoPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -22015,17 +22044,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129136017}
   m_CullTransparentMesh: 1
---- !u!114 &1133640258 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+--- !u!328 &1133640260 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_PrefabInstance: {fileID: 338953929}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1133640263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061282987}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744770fdd9b25c14ea0ec2a3b68edce6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bc2bc2efb1e25148aed1a2a90e79516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  videoPlayerComponent: {fileID: 1133640260}
 --- !u!1 &1145470675
 GameObject:
   m_ObjectHideFlags: 0
@@ -22443,8 +22479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   photonUserPrefab: {fileID: 3000569307421430844, guid: 77681e113a66a094ca9b8d6e673d84e0, type: 3}
-  roverExplorerPrefab: {fileID: 0}
-  roverExplorerLocation: {fileID: 1375688808}
 --- !u!1 &1167531317
 GameObject:
   m_ObjectHideFlags: 0
@@ -25453,6 +25487,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
@@ -25568,24 +25606,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5313574064064786947, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+    - {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
 --- !u!224 &1347244894 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7161015469794869478, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_PrefabInstance: {fileID: 1347244893}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1363761630 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+--- !u!328 &1363761632 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_PrefabInstance: {fileID: 1347244893}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1363761635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895428992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744770fdd9b25c14ea0ec2a3b68edce6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bc2bc2efb1e25148aed1a2a90e79516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  videoPlayerComponent: {fileID: 1363761632}
 --- !u!1 &1365684947
 GameObject:
   m_ObjectHideFlags: 0
@@ -25927,11 +25974,6 @@ MonoBehaviour:
   toggleOnColor: {r: 0.52156866, g: 0.64705884, b: 0.9607843, a: 1}
   toggleOffSprite: {fileID: 21300000, guid: e302326e640938d4995b4696a0a14a4f, type: 3}
   toggleOffColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &1375688808 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6931196017462994534, guid: 027a280457906a64aa8223f89eaac773, type: 3}
-  m_PrefabInstance: {fileID: 192736624}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1377540524
 GameObject:
   m_ObjectHideFlags: 0
@@ -26496,16 +26538,16 @@ MonoBehaviour:
   <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1363761630}
-        m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
-        m_MethodName: getvideoname
+      - m_Target: {fileID: 1363761635}
+        m_TargetAssemblyTypeName: StreamingVideoPlayer, Assembly-CSharp
+        m_MethodName: OnClickUrlDispatcher
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video2
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/video1.mp4?sv=2023-01-03&st=2024-01-12T08%3A59%3A33Z&se=2024-01-13T09%3A14%3A33Z&sr=c&sp=r&sig=0eOE9KeNTAHiNl8BdQ498juXvHW35dMAv0wEBzafA6o%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -28305,6 +28347,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441873061}
   m_Mesh: {fileID: 8597400676033422076, guid: 817117ab22c8d33418218d97ff6c9774, type: 3}
+--- !u!1 &1444181714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4593678718300351938, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+  m_PrefabInstance: {fileID: 1563424717}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1449370761
 GameObject:
   m_ObjectHideFlags: 0
@@ -28652,16 +28699,16 @@ MonoBehaviour:
   <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 793787691}
-        m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
-        m_MethodName: getvideoname
+      - m_Target: {fileID: 1554289713}
+        m_TargetAssemblyTypeName: StreamingVideoPlayer, Assembly-CSharp
+        m_MethodName: OnClickUrlDispatcher
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: pbl
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-12T08%3A57%3A13Z&se=2024-01-13T09%3A12%3A13Z&sr=c&sp=r&sig=iG1ixryiXLlAwUQqwL5%2BgBn3TK1kULqjEKzRm82Gse0%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -30694,6 +30741,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541293218}
   m_Mesh: {fileID: 4300000, guid: fbc47027e54e49848fdfd6d5e20510e7, type: 3}
+--- !u!1 &1554289708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4593678718300351938, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+  m_PrefabInstance: {fileID: 426614969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!328 &1554289710 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+  m_PrefabInstance: {fileID: 426614969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1554289713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554289708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc2bc2efb1e25148aed1a2a90e79516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayerComponent: {fileID: 1554289710}
 --- !u!1 &1554969019
 GameObject:
   m_ObjectHideFlags: 0
@@ -31147,6 +31217,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
@@ -31262,24 +31336,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+    - {fileID: 5313574064064786947, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
 --- !u!224 &1563424718 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7161015469794869478, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_PrefabInstance: {fileID: 1563424717}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1563424719 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5313574064064786946, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
+--- !u!328 &1563424721 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 5313574064064786945, guid: a07cb1a09c6d90d4e88e62394dee9e80, type: 3}
   m_PrefabInstance: {fileID: 1563424717}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1563424724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444181714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744770fdd9b25c14ea0ec2a3b68edce6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bc2bc2efb1e25148aed1a2a90e79516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  videoPlayerComponent: {fileID: 1563424721}
 --- !u!1 &1565056175
 GameObject:
   m_ObjectHideFlags: 0
@@ -32237,18 +32320,18 @@ PrefabInstance:
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 793787691}
+      objectReference: {fileID: 1554289713}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Click_1btn
+      value: OnClickHandler
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: VideioConteroller, Assembly-CSharp
+      value: StreamingVideoPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3858706923806839954, guid: e5dc70d9d8190674ea6e08d1403498d2, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -33076,16 +33159,16 @@ MonoBehaviour:
   <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1071594077}
-        m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
-        m_MethodName: getvideoname
+      - m_Target: {fileID: 1071594082}
+        m_TargetAssemblyTypeName: StreamingVideoPlayer, Assembly-CSharp
+        m_MethodName: OnClickUrlDispatcher
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video1
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/pbl.mp4?sv=2023-01-03&st=2024-01-12T08%3A58%3A50Z&se=2024-01-13T09%3A13%3A50Z&sr=c&sp=r&sig=1Qf%2FvpTjuWxws1KqNI17uljcOgG3NBlumC4d%2FuhNiDQ%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -36815,6 +36898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spatialGraphCoordinateSystemSetter: {fileID: 1881475670}
   locationQrValue: https://localjoost.github.io
+  StartUI: {fileID: 0}
 --- !u!1 &1855795874
 GameObject:
   m_ObjectHideFlags: 0
@@ -37949,16 +38033,16 @@ MonoBehaviour:
   <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1563424719}
-        m_TargetAssemblyTypeName: VideioConteroller, Assembly-CSharp
-        m_MethodName: getvideoname
+      - m_Target: {fileID: 1563424724}
+        m_TargetAssemblyTypeName: StreamingVideoPlayer, Assembly-CSharp
+        m_MethodName: OnClickUrlDispatcher
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: meet
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/hololens_example.mp4?sv=2023-01-03&st=2024-01-12T08%3A57%3A56Z&se=2024-01-13T09%3A12%3A56Z&sr=c&sp=r&sig=zw1a4p%2FXdoLL%2FbrULBE6J37AzaYTaqk%2F4sB2uoqbjr4%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
