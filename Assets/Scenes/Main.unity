@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -950,8 +950,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645275270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.061, y: 0.073680006, z: 0.085}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalPosition: {x: 0.0676, y: 0.0693, z: 0.085}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1690604606}
@@ -3374,6 +3374,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 237.58
       objectReference: {fileID: 0}
+    - target: {fileID: 4700989730695103123, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
+      propertyPath: m_text
+      value: Delete
+      objectReference: {fileID: 0}
     - target: {fileID: 5523084777323298912, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -3509,6 +3513,10 @@ PrefabInstance:
     - target: {fileID: 6682645702746993050, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -15.999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135813124680285527, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
+      propertyPath: currentIconName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7147424653277090323, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
       propertyPath: m_Size.x
@@ -3905,6 +3913,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5950534763047664045, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
     - {fileID: 7767910272049343893, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
+    - {fileID: 7135813124680285527, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 17ea05efa16eb0b46bedb9adfea96b40, type: 3}
 --- !u!1 &1085267798
 GameObject:
