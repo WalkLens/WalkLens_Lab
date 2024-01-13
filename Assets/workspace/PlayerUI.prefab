@@ -7331,7 +7331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayerComponent: {fileID: 2013276916628447852}
-  url: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-12T08%3A57%3A13Z&se=2024-01-13T09%3A12%3A13Z&sr=c&sp=r&sig=iG1ixryiXLlAwUQqwL5%2BgBn3TK1kULqjEKzRm82Gse0%3D
+  url: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-13T17%3A24%3A26Z&se=2024-01-14T17%3A39%3A26Z&sr=c&sp=r&sig=iBAtwENZGoRJBEZl2oT0PnNiFrlTK8JVscwbPnojZjY%3D
 --- !u!1 &5930400430282108761
 GameObject:
   m_ObjectHideFlags: 0
