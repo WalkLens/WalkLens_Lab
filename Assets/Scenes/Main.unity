@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -670,8 +670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7444a2d279e99ef4d8893908d6265127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StudentUI: {fileID: 1050817808361256625, guid: d44708c52b4d5ee4f9f5b5853d50723e, type: 3}
-  SuperviseUI: {fileID: 1050817808361256625, guid: d44708c52b4d5ee4f9f5b5853d50723e, type: 3}
+  StudentUI: {fileID: 5930400430276491178, guid: 2262e5f3ae751f94c81e05f0b000443d, type: 3}
+  SuperviseUI: {fileID: 5930400430276491178, guid: 2262e5f3ae751f94c81e05f0b000443d, type: 3}
 --- !u!4 &665670332
 Transform:
   m_ObjectHideFlags: 0
