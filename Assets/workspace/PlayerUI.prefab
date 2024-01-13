@@ -4063,7 +4063,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/YoutubePScik.mp4?sv=2023-01-03&st=2024-01-12T09%3A00%3A06Z&se=2024-01-13T09%3A15%3A06Z&sr=c&sp=r&sig=XJUAyteSxPtGIOalrPQ00wZBpe4NHxO%2FGAG7MBuAqtc%3D
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/YoutubePScik.mp4?sv=2023-01-03&st=2024-01-13T17%3A13%3A48Z&se=2024-01-14T17%3A28%3A48Z&sr=c&sp=r&sig=yRUlx8Br3wX17MjmXlZAtUckIQlqvE7FGM3icGvmNS4%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -5842,7 +5842,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/hololens_example.mp4?sv=2023-01-03&st=2024-01-12T08%3A57%3A56Z&se=2024-01-13T09%3A12%3A56Z&sr=c&sp=r&sig=zw1a4p%2FXdoLL%2FbrULBE6J37AzaYTaqk%2F4sB2uoqbjr4%3D
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/hololens_example.mp4?sv=2023-01-03&st=2024-01-13T17%3A12%3A30Z&se=2024-01-14T17%3A27%3A30Z&sr=c&sp=r&sig=5ltxZYEVzvKwd2PZl1REcG%2BSKZitUXG0dLADZRr0LJk%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -7331,7 +7331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayerComponent: {fileID: 2013276916628447852}
-  url: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-12T08%3A57%3A13Z&se=2024-01-13T09%3A12%3A13Z&sr=c&sp=r&sig=iG1ixryiXLlAwUQqwL5%2BgBn3TK1kULqjEKzRm82Gse0%3D
+  url: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-13T17%3A24%3A26Z&se=2024-01-14T17%3A39%3A26Z&sr=c&sp=r&sig=iBAtwENZGoRJBEZl2oT0PnNiFrlTK8JVscwbPnojZjY%3D
 --- !u!1 &5930400430282108761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7975,7 +7975,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/pbl.mp4?sv=2023-01-03&st=2024-01-12T08%3A58%3A50Z&se=2024-01-13T09%3A13%3A50Z&sr=c&sp=r&sig=1Qf%2FvpTjuWxws1KqNI17uljcOgG3NBlumC4d%2FuhNiDQ%3D
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/pbl.mp4?sv=2023-01-03&st=2024-01-13T17%3A12%3A59Z&se=2024-01-14T17%3A27%3A59Z&sr=c&sp=r&sig=Gbs%2B9Z1eI4dRNOPJ3%2BTfW9O7YWvdlX3Qcj2TwlRQCWc%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -9819,7 +9819,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/video1.mp4?sv=2023-01-03&st=2024-01-12T08%3A59%3A33Z&se=2024-01-13T09%3A14%3A33Z&sr=c&sp=r&sig=0eOE9KeNTAHiNl8BdQ498juXvHW35dMAv0wEBzafA6o%3D
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/video1.mp4?sv=2023-01-03&st=2024-01-13T17%3A13%3A26Z&se=2024-01-14T17%3A28%3A26Z&sr=c&sp=r&sig=muFZ7Cuj4N3%2BkznAOc5T2kVb0pV7Sy0exQUs1YyW6fc%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
@@ -10891,7 +10891,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-12T08%3A57%3A13Z&se=2024-01-13T09%3A12%3A13Z&sr=c&sp=r&sig=iG1ixryiXLlAwUQqwL5%2BgBn3TK1kULqjEKzRm82Gse0%3D
+          m_StringArgument: https://walklens.blob.core.windows.net/lecture-videos/hiphop_clip1.mp4?sv=2023-01-03&st=2024-01-13T17%3A12%3A02Z&se=2024-01-14T17%3A27%3A02Z&sr=c&sp=r&sig=EBZw0cPlUiWhsLmeaB5DBTRiyBUqyLstELx1MrTRe7U%3D
           m_BoolArgument: 0
         m_CallState: 2
   <OnEnabled>k__BackingField:
