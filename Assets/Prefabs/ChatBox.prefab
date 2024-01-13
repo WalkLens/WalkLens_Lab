@@ -69,8 +69,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uC544\uC544\uC544\uC544\uC544\uC544"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 22e0e09b882bf804594182e3cf92f1ba, type: 2}
-  m_sharedMaterial: {fileID: -3253897058414806686, guid: 22e0e09b882bf804594182e3cf92f1ba, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 495ec07012764be4a963306f4bc1942e, type: 2}
+  m_sharedMaterial: {fileID: 1373525569471944561, guid: 495ec07012764be4a963306f4bc1942e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1390,7 +1390,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 10, z: 26.38652}
+  m_Size: {x: 0, y: 0, z: 26.38652}
   m_Center: {x: 0, y: 0, z: 4.6067348}
 --- !u!114 &7921750646252736633
 MonoBehaviour:
