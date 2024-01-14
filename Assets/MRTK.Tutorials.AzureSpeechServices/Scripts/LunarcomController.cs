@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public enum RecognitionMode { Speech_Recognizer, Intent_Recognizer, Tralation_Recognizer, Disabled, Offline };
 public enum SimuilateOfflineMode { Enabled, Disabled };
@@ -17,7 +18,7 @@ public class LunarcomController : MonoBehaviour
     [Header("Object References")]
     public GameObject terminal;
     public ConnectionLightController connectionLight;
-    public Text outputText;
+    public TextMeshProUGUI outputText;
     public List<LunarcomButtonController> buttons;
 
     public delegate void OnSelectRecognitionMode(RecognitionMode selectedMode);

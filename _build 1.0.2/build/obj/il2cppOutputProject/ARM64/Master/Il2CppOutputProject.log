@@ -1,0 +1,2013 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 17.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\ARM64\link.exe
+  	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\ARM64\cl.exe
+  
+  	Output directory: C:\Users\kgy\Desktop\_build\build\bin\ARM64\Master
+  	Cache directory: C:\Users\kgy\Desktop\_build\build\obj\il2cppOutputProject\ARM64\Master
+  pch-c.c
+  pch-cpp.cpp
+  mscorlib_CodeGen.c
+  Il2CppCCalculateTypeValues.cpp
+  Il2CppCCalculateFieldValues1.cpp
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppGenericInstDefinitions.c
+  Il2CppInteropDataTable.cpp
+  Il2CppGenericClassTable.c
+  GenericMethods__8.cpp
+  Il2CppGenericMethodPointerTable.c
+  Il2CppCCalculateFieldValues.cpp
+  Il2CppCCalculateFieldValues3.cpp
+  Generics__32.cpp
+  GenericMethods__16.cpp
+  Il2CppGenericAdjustorThunkTable.c
+  Il2CppCCalculateFieldValues2.cpp
+  Il2CppMetadataUsage.c
+  Generics__56.cpp
+  Generics__52.cpp
+  Il2CppTypeDefinitions.c
+  GenericMethods__7.cpp
+  Generics__66.cpp
+  Generics__54.cpp
+  Generics__58.cpp
+  Unity.XR.Interaction.Toolkit__3.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.XR.Interaction.Toolkit__3.cpp(26725): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__61.cpp
+  Generics__63.cpp
+  Il2CppCCWs__207.cpp
+  Il2CppCCWs__209.cpp
+  Il2CppInvokerTable.cpp
+  GenericMethods__2.cpp
+  Microsoft.MixedReality.OpenXR.cpp
+  GenericMethods__5.cpp
+  GenericMethods__1.cpp
+  Microsoft.WindowsAzure.Storage__2.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__2.cpp(9914): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.WindowsAzure.Storage__5.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__5.cpp(15802): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__83.cpp
+  Unity.TextMeshPro__3.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__3.cpp(20333): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.CSharp.cpp
+  Generics__62.cpp
+  Il2CppPCCWMethods.cpp
+  GenericMethods.cpp
+  Generics__55.cpp
+  Microsoft.WindowsAzure.Storage__3.cpp
+  Generics__60.cpp
+  GenericMethods__12.cpp
+  UnityEngine.UIElementsModule__2.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__2.cpp(19534): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__91.cpp
+  Unity.XR.Interaction.Toolkit__5.cpp
+  Microsoft.WindowsAzure.Storage.cpp
+  Unity.XR.Interaction.Toolkit__2.cpp
+  Newtonsoft.Json__4.cpp
+  Generics__34.cpp
+  Generics__16.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__16.cpp(31966): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__18.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__18.cpp(30545): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__48.cpp
+  Unity.InputSystem__6.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.InputSystem__6.cpp(40060): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__19.cpp
+  Generics__44.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__44.cpp(16785): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppGenericMethodTable.c
+  Unity.XR.Interaction.Toolkit__4.cpp
+  Generics__47.cpp
+  Unity.InputSystem__8.cpp
+  GenericMethods__22.cpp
+  Assembly-CSharp__2.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp__2.cpp(31344): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__17.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__17.cpp(24075): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__13.cpp
+  Microsoft.WindowsAzure.Storage__4.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__4.cpp(18092): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__57.cpp
+  Generics__3.cpp
+  Generics__33.cpp
+  Generics__93.cpp
+  Generics__92.cpp
+  mscorlib__3.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\mscorlib__3.cpp(15731): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.InputSystem__4.cpp
+  Unity.XR.Interaction.Toolkit__6.cpp
+  Unity.InputSystem__5.cpp
+  Generics__18.cpp
+  Unity.InputSystem__2.cpp
+  System.Core__2.cpp
+  Unity.InputSystem__7.cpp
+  Microsoft.WindowsAzure.Storage__1.cpp
+  Unity.InputSystem.cpp
+  System.cpp
+  Generics__94.cpp
+  Generics__20.cpp
+  Generics__2.cpp
+  Unity.InputSystem_CodeGen.c
+  Unity.XR.OpenXR.cpp
+  Il2CppGenericMethodDefinitions.c
+  GenericMethods__15.cpp
+  Unity.InputSystem__9.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.InputSystem__9.cpp(36435): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.XR.Interaction.Toolkit__1.cpp
+  Unity.XR.Interaction.Toolkit.cpp
+  GenericMethods__14.cpp
+  Il2CppCCWs__179.cpp
+  MixedReality.Toolkit.Input.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.Input.cpp(36283): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.WindowsAzure.Storage__6.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__6.cpp(8521): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  MixedReality.Toolkit.UXCore.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.UXCore.cpp(37316): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__4.cpp
+  Generics__98.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__98.cpp(31470): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System__8.cpp
+  System_CodeGen.c
+  GenericMethods__21.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__21.cpp(36260): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Core__1.cpp
+  Generics__82.cpp
+  System.Net.Http.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System.Net.Http.cpp(9341): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__100.cpp
+  MixedReality.Toolkit.Core.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.Core.cpp(25582): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__35.cpp
+  Generics__87.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__87.cpp(27776): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__81.cpp
+  UnityEngine.CoreModule.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule.cpp(17111): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.UIElementsModule.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule.cpp(38594): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__20.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__20.cpp(22719): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Core__3.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int8_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System.Core__3.cpp(23821): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int8_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(37): warning C4305: 'return': 'int'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(37): warning C4309: 'return': ��� ���� �߸��ϴ�.
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int16_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System.Core__3.cpp(23829): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int16_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(37): warning C4305: 'return': 'int'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System.Core__3.cpp(23845): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+  System.Core.cpp
+  Unity.XR.Interaction.Toolkit_CodeGen.c
+  Generics__13.cpp
+  Generics.cpp
+  Il2CppCCWs__180.cpp
+  UnresolvedVirtualCallStubs.cpp
+  System.Xml__15.cpp
+  UnityEngine.UIElementsModule__3.cpp
+  Assembly-CSharp.cpp
+  Generics__96.cpp
+  System__9.cpp
+  UnityEngine.UIElementsModule__5.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__5.cpp(33115): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__19.cpp
+  Newtonsoft.Json__5.cpp
+  System__10.cpp
+  System.Xml__1.cpp
+  Generics__17.cpp
+  Generics__37.cpp
+  GenericMethods__3.cpp
+  Unity.InputSystem__10.cpp
+  UnityEngine.UIElementsModule__7.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__7.cpp(15326): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__11.cpp
+  mscorlib__17.cpp
+  Generics__64.cpp
+  Newtonsoft.Json.cpp
+  Generics__36.cpp
+  PhotonUnityNetworking.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.cpp(9802): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__102.cpp
+  Generics__101.cpp
+  Generics__67.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__67.cpp(24557): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.CSharp__2.cpp
+  Microsoft.WindowsAzure.Storage_CodeGen.c
+  System.Xml_CodeGen.c
+  Newtonsoft.Json__6.cpp
+  UnityEngine.UIElementsModule__4.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__4.cpp(10248): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__9.cpp
+  UnityEngine.CoreModule__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule__1.cpp(11403): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__21.cpp
+  Generics__15.cpp
+  Generics__59.cpp
+  System.Xml__10.cpp
+  Newtonsoft.Json__1.cpp
+  Il2CppCCWs__237.cpp
+  mscorlib__18.cpp
+  Generics__65.cpp
+  UnityEngine.UIElementsModule_CodeGen.c
+  Unity.TextMeshPro__4.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__4.cpp(19597): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__31.cpp
+  MixedReality.Toolkit.SpatialManipulation.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.SpatialManipulation.cpp(31425): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__9.cpp
+  Newtonsoft.Json__7.cpp
+  Unity.InputSystem__1.cpp
+  Unity.TextMeshPro__5.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__5.cpp(16815): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__5.cpp
+  Generics__10.cpp
+  mscorlib__15.cpp
+  Generics__88.cpp
+  mscorlib__9.cpp
+  System__5.cpp
+  Generics__9.cpp
+  Generics__4.cpp
+  Microsoft.MixedReality.GraphicsTools__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools__1.cpp(26503): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__53.cpp
+  mscorlib__16.cpp
+  System__11.cpp
+  System.Xml__13.cpp
+  Newtonsoft.Json__3.cpp
+  UnityEngine.UIElementsModule__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__1.cpp(8735): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  PhotonUnityNetworking.Demos.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.Demos.cpp(10612): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__19.cpp
+  mscorlib__23.cpp
+  UnityEngine.UI.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI.cpp(19962): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__8.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\mscorlib__8.cpp(17639): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__6.cpp
+  Generics__6.cpp
+  Generics__7.cpp
+  Generics__11.cpp
+  mscorlib__6.cpp
+  Generics__43.cpp
+  System__2.cpp
+  Generics__12.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__12.cpp(27225): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  PhotonRealtime.cpp
+  Generics__8.cpp
+  Microsoft.CSharp__1.cpp
+  System__12.cpp
+  mscorlib__5.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\mscorlib__5.cpp(9269): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__99.cpp
+  System.Xml__11.cpp
+  System__7.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System__7.cpp(8581): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__12.cpp
+  Generics__51.cpp
+  Generics__90.cpp
+  Il2CppCCWs__181.cpp
+  Generics__86.cpp
+  Generics__45.cpp
+  System.Xml__8.cpp
+  System.Xml__14.cpp
+  UnityEngine.CoreModule__2.cpp
+  UnityEngine.UI__2.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI__2.cpp(5833): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Newtonsoft.Json__2.cpp
+  Generics__38.cpp
+  Generics__97.cpp
+  UnityEngine.UIElementsModule__8.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__8.cpp(20623): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__14.cpp
+  Il2CppCCWs__213.cpp
+  Generics__1.cpp
+  System__6.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System__6.cpp(8496): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.UIElementsModule__11.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__11.cpp(22335): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__5.cpp
+  mscorlib__2.cpp
+  Photon3Unity3D__1.cpp
+  UnityEngine.UI__3.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI__3.cpp(9906): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__22.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\mscorlib__22.cpp(8870): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__49.cpp
+  UnityEngine.UIElementsModule__9.cpp
+  Generics__103.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__103.cpp(30733): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__89.cpp
+  System.Xml__2.cpp
+  Generics__39.cpp
+  mscorlib__14.cpp
+  mscorlib__12.cpp
+  MixedReality.Toolkit.Input__1.cpp
+  mscorlib__7.cpp
+  UnityEngine.UIElementsModule__6.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__6.cpp(8751): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__4.cpp
+  Generics__42.cpp
+  Generics__50.cpp
+  System__13.cpp
+  UnityEngine.UIElementsModule__10.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__10.cpp(25488): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.TextCoreTextEngineModule__2.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule__2.cpp(7966): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.UI__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI__1.cpp(30117): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.WindowsAzure.Storage__7.cpp
+  Generics__41.cpp
+  Assembly-CSharp__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp__1.cpp(11370): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__40.cpp
+  Newtonsoft.Json_CodeGen.c
+  Unity.TextMeshPro__2.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__2.cpp(25571): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Core_CodeGen.c
+  Generics__84.cpp
+  Unity.InputSystem__3.cpp
+  System.Xml__3.cpp
+  Generics__95.cpp
+  mscorlib__13.cpp
+  System.Xml__7.cpp
+  mscorlib__11.cpp
+  PhotonUnityNetworking.Utilities.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.Utilities.cpp(7457): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__20.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\mscorlib__20.cpp(5164): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__104.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__104.cpp(21917): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__6.cpp
+  Photon3Unity3D.cpp
+  Generics__85.cpp
+  Mono.Security.cpp
+  mscorlib__10.cpp
+  System.Xml__4.cpp
+  Microsoft.MixedReality.GraphicsTools.cpp
+  UnityEngine.IMGUIModule.cpp
+  System__4.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\System__4.cpp(16128): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__106.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__106.cpp(25722): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__1.cpp
+  System.Xml__16.cpp
+  Generics__27.cpp
+  mscorlib.cpp
+  System.Xml.cpp
+  Unity.XR.CoreUtils.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.XR.CoreUtils.cpp(23780): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__221.cpp
+  Il2CppCCTypeValuesTable.cpp
+  Generics__30.cpp
+  mscorlib__24.cpp
+  Photon3Unity3D__2.cpp
+  GenericMethods__10.cpp
+  System__3.cpp
+  Generics__28.cpp
+  Generics__24.cpp
+  System.Numerics.cpp
+  Generics__46.cpp
+  Generics__77.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__77.cpp(5145): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__25.cpp
+  Generics__78.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__78.cpp(4459): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__80.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__80.cpp(5218): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__68.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__68.cpp(4231): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__13.cpp
+  Generics__105.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__105.cpp(21615): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__26.cpp
+  Mono.Security__1.cpp
+  Generics__29.cpp
+  Generics__22.cpp
+  Generics__74.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__74.cpp(4323): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__23.cpp
+  PhotonUnityNetworking.Demos__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.Demos__1.cpp(7366): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__79.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__79.cpp(4488): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__72.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__72.cpp(4730): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__70.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__70.cpp(4235): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__69.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__69.cpp(4363): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__76.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__76.cpp(4285): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__73.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__73.cpp(4255): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__206.cpp
+  Il2CppCCalculateTypeValues2.cpp
+  AzureSpatialAnchors.SDK.Core.Runtime.cpp
+  Il2CppCCWs__18.cpp
+  AzureSpatialAnchors.SDK.Windows.Runtime.cpp
+  Il2CppRgctxTable.c
+  Unity.XR.ARFoundation.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  Generics__107.cpp
+  Generics__71.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__71.cpp(4254): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__75.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Generics__75.cpp(4232): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.InputSystem__11.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.InputSystem__11.cpp(8347): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System__1.cpp
+  Il2CppCCWs__236.cpp
+  Il2CppCCWs__225.cpp
+  Il2CppCCWs__208.cpp
+  Assembly-CSharp__3.cpp
+  Microsoft.MixedReality.GraphicsTools__2.cpp
+  Il2CppCCWs__226.cpp
+  Microsoft.MixedReality.QR.DotNet.cpp
+  RealityCollective.ServiceFramework.cpp
+  MixedReality.Toolkit.SpatialManipulation__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.SpatialManipulation__1.cpp(12937): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.UIElementsModule__12.cpp
+  Il2CppCCWs__215.cpp
+  Unity.XR.OpenXR__1.cpp
+  Il2CppCCWs__110.cpp
+  Microsoft.CognitiveServices.Speech.csharp.cpp
+  Il2CppCCWs__205.cpp
+  Il2CppCCWs__166.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Il2CppCCWs__224.cpp
+  UnityEngine.TextCoreTextEngineModule__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule__1.cpp(8408): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__223.cpp
+  System.Runtime.WindowsRuntime.cpp
+  System.Xml.Linq.cpp
+  Il2CppCCWs__14.cpp
+  MixedReality.Toolkit.UXCore__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.UXCore__1.cpp(6284): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__111.cpp
+  Il2CppCCWs__233.cpp
+  Il2CppCCWs__9.cpp
+  Il2CppCCWs__99.cpp
+  System.Core__4.cpp
+  Unity.XR.ARSubsystems.cpp
+  Unity.TextMeshPro.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro.cpp(8070): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  WindowsRuntimeMetadata.cpp
+  Unity.TextMeshPro__1.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__1.cpp(8210): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__238.cpp
+  Il2CppCCWs__165.cpp
+  Il2CppCCWs__91.cpp
+  UnityEngine.AndroidJNIModule.cpp
+  Il2CppCCWs__214.cpp
+  Il2CppCCWs__228.cpp
+  Il2CppCCWs__19.cpp
+  Il2CppCCWs__92.cpp
+  Il2CppCCWs__90.cpp
+  mscorlib__21.cpp
+  Microsoft.CSharp_CodeGen.c
+  Il2CppCCWs__235.cpp
+  I18N.CJK.cpp
+  Il2CppCCWs__220.cpp
+  Il2CppCCWs__167.cpp
+  Il2CppCCWs.cpp
+  UnityEngine.TextCoreTextEngineModule.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule.cpp(6356): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__12.cpp
+  Il2CppCCWs__261.cpp
+  Il2CppCCWs__106.cpp
+  Il2CppCCWs__98.cpp
+  Il2CppCCWs__93.cpp
+  Il2CppCCWs__11.cpp
+  Il2CppCCWs__96.cpp
+  Il2CppCCWs__89.cpp
+  Il2CppCCWs__95.cpp
+  Il2CppCCWs__97.cpp
+  I18N.cpp
+  UnityEngine.UI_CodeGen.c
+  PhotonChat.cpp
+  UnityEngine.XRModule.cpp
+  Unity.TextMeshPro_CodeGen.c
+  PhotonRealtime__1.cpp
+  PhotonUnityNetworking__1.cpp
+  Il2CppCCWs__229.cpp
+  dictionary.c
+  Il2CppCCWs__176.cpp
+  Il2CppCCWs__94.cpp
+  Il2CppCCWs__171.cpp
+  Il2CppCCWs__67.cpp
+  Il2CppCCWs__174.cpp
+  Il2CppCCWs__107.cpp
+  Il2CppCCWs__175.cpp
+  Il2CppCCWs__218.cpp
+  Il2CppCCWs__169.cpp
+  Il2CppCCWs__66.cpp
+  Il2CppCCWs__182.cpp
+  Il2CppCCWs__168.cpp
+  Il2CppCCWs__10.cpp
+  Il2CppCCWs__68.cpp
+  Unity.Burst.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\Unity.Burst.cpp(8908): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  char-conversions.cpp
+  Il2CppCCWs__172.cpp
+  Il2CppCCWs__173.cpp
+  Il2CppCCWs__1.cpp
+  Il2CppCCWs__177.cpp
+  Il2CppCCWs__109.cpp
+  Il2CppCCWs__232.cpp
+  Il2CppCCWs__105.cpp
+  Il2CppCCWs__64.cpp
+  Il2CppCCWs__63.cpp
+  Il2CppCCWs__62.cpp
+  Il2CppCCWs__200.cpp
+  Il2CppCCWs__164.cpp
+  Il2CppCCWs__198.cpp
+  Il2CppCCWs__65.cpp
+  Assembly-CSharp_CodeGen.c
+  UnityEngine.TextCoreTextEngineModule__3.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule__3.cpp(6190): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__60.cpp
+  Il2CppCCWs__227.cpp
+  Il2CppCCWs__61.cpp
+  Newtonsoft.Json__8.cpp
+  Il2CppCCWs__201.cpp
+  Il2CppCCWs__203.cpp
+  Il2CppCCWs__108.cpp
+  Il2CppCCWs__178.cpp
+  Il2CppCCWs__204.cpp
+  Il2CppCCWs__15.cpp
+  Il2CppCCWs__199.cpp
+  Il2CppCCWs__260.cpp
+  Il2CppCCWs__16.cpp
+  Il2CppCCWs__202.cpp
+  Il2CppCCWs__17.cpp
+  Unity.Mathematics.cpp
+  UnityEngine.UIElementsNativeModule.cpp
+  MixedReality.Toolkit.Speech.Windows.cpp
+  Il2CppCCWs__217.cpp
+  Il2CppCCWs__247.cpp
+  MixedReality.Toolkit.Accessibility.cpp
+  Il2CppCCWs__170.cpp
+  Il2CppCCWs__104.cpp
+  Il2CppCCWs__240.cpp
+  Il2CppCCWs__103.cpp
+  Il2CppCCWs__212.cpp
+  Il2CppCCWs__72.cpp
+  Il2CppCCWs__239.cpp
+  Il2CppCCWs__197.cpp
+  Il2CppCCWs__76.cpp
+  Il2CppCCWs__246.cpp
+  Il2CppCCWs__193.cpp
+  Il2CppCCWs__77.cpp
+  I18N.Rare__2.cpp
+  I18N.Rare__1.cpp
+  Il2CppCCWs__70.cpp
+  Il2CppCCWs__79.cpp
+  I18N.Rare.cpp
+  Il2CppCCWs__102.cpp
+  Il2CppCCWs__73.cpp
+  I18N.Rare__4.cpp
+  Il2CppCCWs__74.cpp
+  Il2CppCCWs__69.cpp
+  I18N.West.cpp
+  Il2CppCCWs__75.cpp
+  Il2CppCCWs__80.cpp
+  Il2CppCCWs__259.cpp
+  Il2CppCCWs__78.cpp
+  Il2CppCCWs__243.cpp
+  Unity.XR.OpenXR_CodeGen.c
+  Microsoft.MixedReality.OpenXR_CodeGen.c
+  Il2CppCCWs__71.cpp
+  Il2CppCCWs__219.cpp
+  I18N.Rare__3.cpp
+  I18N.Other.cpp
+  Il2CppCCWs__211.cpp
+  MixedReality.Toolkit.Core_CodeGen.c
+  UnityEngine.AnimationModule.cpp
+  Il2CppCCWs__252.cpp
+  UnityEngine.TextCoreFontEngineModule.cpp
+  Il2CppCCWs__231.cpp
+  Il2CppCCWs__5.cpp
+  Photon3Unity3D_CodeGen.c
+  UnityEngine.PhysicsModule.cpp
+  Il2CppCCWs__255.cpp
+  UnityEngine.UnityWebRequestModule.cpp
+  MixedReality.Toolkit.Input_CodeGen.c
+  UnityEngine.IMGUIModule__1.cpp
+  Il2CppCCWs__4.cpp
+  MixedReality.Toolkit.UXCore_CodeGen.c
+  MixedReality.Toolkit.SpatialManipulation_CodeGen.c
+  Il2CppCCWs__253.cpp
+  Il2CppCCWs__8.cpp
+  Microsoft.CSharp__3.cpp
+  Il2CppCCWs__6.cpp
+  Il2CppCCWs__3.cpp
+  I18N.West__1.cpp
+  Il2CppCCWs__192.cpp
+  Unity.ResourceManager.cpp
+  MixedReality.Toolkit.Core__1.cpp
+  Il2CppCCWs__234.cpp
+  Il2CppCCWs__7.cpp
+  Il2CppCCWs__241.cpp
+  Unity.TextMeshPro__6.cpp
+  Il2CppCCWs__186.cpp
+  UnityEngine.UIModule.cpp
+  Il2CppCCWs__184.cpp
+  PhotonUnityNetworking.Demos_CodeGen.c
+  I18N.MidEast.cpp
+  Microsoft.MixedReality.GraphicsTools_CodeGen.c
+  Il2CppCCWs__210.cpp
+  Il2CppCCWs__250.cpp
+  UnityEngine.TerrainModule.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TerrainModule.cpp(3796): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Net.Http_CodeGen.c
+  Il2CppCCWs__256.cpp
+  Unity.XR.Management.cpp
+  Il2CppCCWs__242.cpp
+  Il2CppCCWs__190.cpp
+  Il2CppCCWs__251.cpp
+  Il2CppCCWs__188.cpp
+  Il2CppCCWs__262.cpp
+  Unity.XR.CoreUtils_CodeGen.c
+  Il2CppCCWs__187.cpp
+  UnityEngine.Physics2DModule.cpp
+  Il2CppCCWs__183.cpp
+  UnityEngine.SubsystemsModule.cpp
+  Il2CppCCWs__112.cpp
+  RealityCollective.Utilities.cpp
+  Il2CppCCWs__115.cpp
+  Il2CppCCWs__245.cpp
+  Il2CppCCWs__163.cpp
+  Il2CppCCWs__189.cpp
+  Il2CppCCWs__222.cpp
+  Il2CppCCWs__117.cpp
+  UnityEngine.TextRenderingModule.cpp
+  Il2CppCCWs__191.cpp
+  Il2CppCCWs__249.cpp
+  PhotonRealtime_CodeGen.c
+  Il2CppCCWs__185.cpp
+  Il2CppCCWs__116.cpp
+  Il2CppCCWs__216.cpp
+  UnityEngine.InputLegacyModule.cpp
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): note: ���ø� �ν��Ͻ�ȭ ���ؽ�Ʈ(���� ������ �ν��Ͻ�ȭ ���ؽ�Ʈ)��
+  C:\Users\kgy\Desktop\_build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.InputLegacyModule.cpp(2078): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.IMGUIModule_CodeGen.c
+  Il2CppCCWs__194.cpp
+  Il2CppCCWs__113.cpp
+  Mono.Security_CodeGen.c
+  PhotonUnityNetworking_CodeGen.c
+  dictionary_hash.c
+  Il2CppCCWs__195.cpp
+  Il2CppCCWs__162.cpp
+  Unity.XR.OpenXR.Features.MockRuntime.cpp
+  Il2CppCCWs__150.cpp
+  Il2CppCCWs__196.cpp
+  Il2CppCCWs__133.cpp
+  UnityEngine.AudioModule.cpp
+  Il2CppCCWs__123.cpp
+  Il2CppCCWs__248.cpp
+  Il2CppCCWs__154.cpp
+  UnityEngine.SpatialTracking.cpp
+  Il2CppCCWs__144.cpp
+  Il2CppCCWs__147.cpp
+  MixedReality.Toolkit.Diagnostics.cpp
+  Il2CppCCWs__122.cpp
+  Il2CppCCWs__149.cpp
+  Il2CppCCWs__132.cpp
+  Il2CppCCWs__120.cpp
+  UnityEngine.TextCoreTextEngineModule_CodeGen.c
+  Il2CppCCWs__148.cpp
+  Il2CppCCWs__137.cpp
+  Il2CppCCWs__134.cpp
+  Il2CppCCWs__119.cpp
+  Il2CppCCWs__118.cpp
+  Il2CppCCWs__143.cpp
+  System.Runtime.WindowsRuntime_CodeGen.c
+  AzureSpatialAnchors.SDK.Windows.Runtime_CodeGen.c
+  Il2CppCCWs__138.cpp
+  RealityCollective.ServiceFramework_CodeGen.c
+  Il2CppCCWs__141.cpp
+  Il2CppCCWs__151.cpp
+  Il2CppCCWs__152.cpp
+  Il2CppCCWs__114.cpp
+  Il2CppCCWs__146.cpp
+  Unity.XR.ARFoundation_CodeGen.c
+  Il2CppCCWs__136.cpp
+  Il2CppCCWs__124.cpp
+  UnityEngine.SharedInternalsModule.cpp
+  Il2CppCCWs__135.cpp
+  Il2CppCCWs__139.cpp
+  Il2CppCCWs__155.cpp
+  Il2CppCCWs__157.cpp
+  Il2CppCCWs__153.cpp
+  Il2CppCCWs__142.cpp
+  UnityEngine.TilemapModule.cpp
+  Unity.XR.ARSubsystems_CodeGen.c
+  Il2CppCCWs__140.cpp
+  WindowsRuntimeMetadata_CodeGen.c
+  Il2CppCCWs__159.cpp
+  Il2CppCCWs__125.cpp
+  Il2CppCCWs__230.cpp
+  Il2CppCCWs__158.cpp
+  Il2CppGenericComDefinitions.cpp
+  Il2CppCCWs__145.cpp
+  Il2CppCCWs__121.cpp
+  Il2CppCCWs__2.cpp
+  Il2CppCCWs__257.cpp
+  Il2CppCCWs__126.cpp
+  Il2CppCCWs__161.cpp
+  Il2CppCCWs__128.cpp
+  Il2CppCCWs__160.cpp
+  __Generated.cpp
+  Il2CppCCWs__129.cpp
+  Microsoft.MixedReality.QR.DotNet_CodeGen.c
+  Il2CppCCWs__156.cpp
+  Il2CppCCWs__131.cpp
+  Il2CppCCWs__130.cpp
+  Microsoft.CognitiveServices.Speech.csharp_CodeGen.c
+  Photon3Unity3D__3.cpp
+  Il2CppCCWs__127.cpp
+  deflate.c
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\external\zlib\deflate.c(1915): warning C4244: '=': 'ush'���� 'uchf'(��)�� ��ȯ�ϸ鼭 �����Ͱ� �սǵ� �� �ֽ��ϴ�.
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\external\zlib\deflate.c(2040): warning C4244: '=': 'ush'���� 'uchf'(��)�� ��ȯ�ϸ鼭 �����Ͱ� �սǵ� �� �ֽ��ϴ�.
+C:\Users\kgy\Desktop\_build\Il2CppOutputProject\IL2CPP\external\zlib\deflate.c(2150): warning C4244: '=': 'ush'���� 'uchf'(��)�� ��ȯ�ϸ鼭 �����Ͱ� �սǵ� �� �ֽ��ϴ�.
+  UnityEngine.VFXModule.cpp
+  Il2CppCCWs__101.cpp
+  System.Xml.Linq_CodeGen.c
+  PhotonUnityNetworking.Utilities_CodeGen.c
+  UnityEngine.AndroidJNIModule_CodeGen.c
+  Il2CppCCWs__100.cpp
+  System.Numerics_CodeGen.c
+  UnityEngine.UnityAnalyticsModule.cpp
+  UnityEngine.UIElementsNativeModule_CodeGen.c
+  I18N.Rare__5.cpp
+  Il2CppCCWs__254.cpp
+  Il2CppCCWs__36.cpp
+  Il2CppCCWs__29.cpp
+  Unity.ResourceManager_CodeGen.c
+  __Generated_CodeGen.c
+  Il2CppCCWs__244.cpp
+  UnityEngine.VideoModule.cpp
+  decode.c
+  I18N.Rare_CodeGen.c
+  AzureSpatialAnchors.SDK.Core.Runtime_CodeGen.c
+  Il2CppCCWs__45.cpp
+  UnityEngine.XRModule_CodeGen.c
+  Il2CppCCWs__35.cpp
+  Il2CppCCWs__30.cpp
+  Unity.XR.OpenXR.Features.ConformanceAutomation.cpp
+  Il2CppCCWs__258.cpp
+  UnityEngine.ParticleSystemModule.cpp
+  Il2CppCCWs__24.cpp
+  inflate.c
+  Il2CppCCWs__53.cpp
+  UnityEngine.TextCoreFontEngineModule_CodeGen.c
+  I18N.CJK_CodeGen.c
+  Il2CppCCWs__52.cpp
+  UnityEngine.PhysicsModule_CodeGen.c
+  Il2CppCCWs__46.cpp
+  Il2CppCCWs__22.cpp
+  Il2CppCCWs__21.cpp
+  Il2CppCCWs__27.cpp
+  Il2CppCCWs__55.cpp
+  encode.c
+  Il2CppCCWs__39.cpp
+  Il2CppCCWs__54.cpp
+  Il2CppCCWs__42.cpp
+  Il2CppCCWs__41.cpp
+  Il2CppCCWs__28.cpp
+  UnityEngine.InputModule.cpp
+  Unity.Mathematics_CodeGen.c
+  Il2CppCCWs__20.cpp
+  UnityEngine.AnimationModule_CodeGen.c
+  Il2CppCCWs__59.cpp
+  brotli_bit_stream.c
+  Il2CppCCWs__34.cpp
+  Il2CppCCWs__25.cpp
+  Il2CppCCWs__38.cpp
+  Il2CppCCWs__50.cpp
+  Il2CppCCWs__56.cpp
+  Il2CppCCWs__37.cpp
+  Il2CppCCWs__26.cpp
+  Il2CppCCWs__58.cpp
+  UnityEngine.SubsystemsModule_CodeGen.c
+  Il2CppCCWs__48.cpp
+  Il2CppCCWs__33.cpp
+  Il2CppCCWs__49.cpp
+  trees.c
+  Il2CppCCWs__23.cpp
+  Il2CppCCWs__47.cpp
+  Il2CppCCWs__57.cpp
+  Il2CppCCWs__32.cpp
+  Il2CppCCWs__51.cpp
+  MixedReality.Toolkit.Accessibility_CodeGen.c
+  Il2CppCCWs__44.cpp
+  il2cpp-mono-api.cpp
+  Il2CppCCWs__40.cpp
+  Il2CppCCWs__43.cpp
+  PhotonChat_CodeGen.c
+  Il2CppCCWs__31.cpp
+  Unity.XR.OpenXR.Features.RuntimeDebugger.cpp
+  Il2CppCCWs__85.cpp
+  Il2CppCCWs__86.cpp
+  Unity.Burst_CodeGen.c
+  Il2CppCCWs__87.cpp
+  Il2CppCCWs__88.cpp
+  Il2CppCCWs__81.cpp
+  System.Configuration.cpp
+  Il2CppCCWs__84.cpp
+  Il2CppCCWs__82.cpp
+  Il2CppCCWs__83.cpp
+  UnityEngine.UIModule_CodeGen.c
+  UnityEngine.JSONSerializeModule.cpp
+  crc32.c
+  GenericMethods__23.cpp
+  xamarin_getifaddrs.c
+  Unity.XR.Management_CodeGen.c
+  I18N_CodeGen.c
+  UnityEngine.Physics2DModule_CodeGen.c
+  MixedReality.Toolkit.Speech.Windows_CodeGen.c
+  UnityEngine.UnityWebRequestModule_CodeGen.c
+  I18N.West_CodeGen.c
+  RealityCollective.Utilities_CodeGen.c
+  backward_references_hq.c
+  UnityEngine.AssetBundleModule.cpp
+  Il2CppReversePInvokeWrapperTable.cpp
+  I18N.Other_CodeGen.c
+  MixedReality.Toolkit.Diagnostics_CodeGen.c
+  metablock.c
+  gzread.c
+  infback.c
+  Il2CppCodeRegistration.cpp
+  UnityEngine.InputLegacyModule_CodeGen.c
+  gzwrite.c
+  UnityEngine.SharedInternalsModule_CodeGen.c
+  il2cpp-api.cpp
+  UnityEngine.TextRenderingModule_CodeGen.c
+  compress_fragment.c
+  Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c
+  gzlib.c
+  compress_fragment_two_pass.c
+  System.Runtime.WindowsRuntime.UI.Xaml.cpp
+  UnityEngine.AIModule.cpp
+  UnityEngine.AudioModule_CodeGen.c
+  entropy_encode.c
+  UnityEngine.TilemapModule_CodeGen.c
+  inftrees.c
+  inffast.c
+  Unity.XR.OpenXR.Features.MetaQuestSupport.cpp
+  UnityEngine.TerrainModule_CodeGen.c
+  UnityEngine.VRModule.cpp
+  static_dict.c
+  UnityEngine.SpatialTracking_CodeGen.c
+  huffman.c
+  I18N.MidEast_CodeGen.c
+  UnityEngine.DirectorModule.cpp
+  UnityEngine.VFXModule_CodeGen.c
+  UnityEngine.ParticleSystemModule_CodeGen.c
+  transform.c
+  Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c
+  context.c
+  UnityEngine.VideoModule_CodeGen.c
+  System.Runtime.Serialization.cpp
+  System.Configuration_CodeGen.c
+  Unity.XR.OpenXR.Features.OculusQuestSupport.cpp
+  zutil.c
+  UnityEngine.UnityAnalyticsModule_CodeGen.c
+  UnityEngine.ImageConversionModule.cpp
+  UnityEngine.InputModule_CodeGen.c
+  fast_log.c
+  System.Net.Http__1.cpp
+  literal_cost.c
+  memory.c
+  state.c
+  adler32.c
+  Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c
+  uncompr.c
+  UnityEngine.GridModule.cpp
+  UnityEngine.SpriteShapeModule.cpp
+  block_splitter.c
+  System.Runtime.WindowsRuntime.UI.Xaml_CodeGen.c
+  UnityEngine.JSONSerializeModule_CodeGen.c
+  System.Runtime.Serialization_CodeGen.c
+  histogram.c
+  bit_reader.c
+  utf8_util.c
+  krait_signal_handler.c
+  UnityAdsStubs.cpp
+  UnityEngine.DirectorModule_CodeGen.c
+  UnityEngine.AIModule_CodeGen.c
+  backward_references.c
+  UnityEngine.VRModule_CodeGen.c
+  UnityEngine.ImageConversionModule_CodeGen.c
+  Il2CppMetadataRegistration.c
+  cluster.c
+  Unity.XR.OpenXR.Features.OculusQuestSupport_CodeGen.c
+  Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c
+  command.c
+  UnityEngine.GridModule_CodeGen.c
+  encoder_dict.c
+  bit_cost.c
+  System.Collections.cpp
+  netstandard.cpp
+  System.ComponentModel.TypeConverter.cpp
+  System.Diagnostics.Debug.cpp
+  System.Diagnostics.Tracing.cpp
+  System.Dynamic.Runtime.cpp
+  System.Globalization.cpp
+  Lump_libil2cpp_utils.cpp
+  Lump_libil2cpp_icalls.cpp
+  System.Net.Primitives.cpp
+  System.IO.FileSystem.cpp
+  System.IO.FileSystem.Primitives.cpp
+  Lump_libil2cpp_vm-utils.cpp
+  System.IO.cpp
+  gc.c
+  System.Linq.Expressions.cpp
+  System.IO.Compression.cpp
+  System.Linq.cpp
+  System.Numerics.Vectors.cpp
+  System.ObjectModel.cpp
+  System.Reflection.Extensions.cpp
+  System.Reflection.cpp
+  System.Reflection.Primitives.cpp
+  System.Runtime.cpp
+  System.Runtime.Extensions.cpp
+  System.Runtime.Handles.cpp
+  Lump_libil2cpp_metadata.cpp
+  System.Runtime.InteropServices.cpp
+  System.Runtime.InteropServices.WindowsRuntime.cpp
+  System.Runtime.Numerics.cpp
+  System.Runtime.Serialization.Formatters.cpp
+  System.Runtime.Serialization.Primitives.cpp
+  System.Security.Cryptography.Algorithms.cpp
+  System.Text.Encoding.cpp
+  System.Security.Cryptography.Primitives.cpp
+  System.Text.Encoding.Extensions.cpp
+  System.Text.RegularExpressions.cpp
+  System.Threading.Tasks.cpp
+  System.Threading.Timer.cpp
+  System.Threading.cpp
+  System.Xml.XDocument.cpp
+  System.Xml.ReaderWriter.cpp
+  UnityEngine.cpp
+  System.Xml.XmlDocument.cpp
+  il2cpp-benchmark-support.cpp
+  gzclose.c
+  constants.c
+  System.Runtime.InteropServices.WindowsRuntime_CodeGen.c
+  platform.c
+  System.Runtime.Serialization.Formatters_CodeGen.c
+  Lump_libil2cpp_mono.cpp
+  System.Security.Cryptography.Algorithms_CodeGen.c
+  System.Runtime.Serialization.Primitives_CodeGen.c
+  System.Security.Cryptography.Primitives_CodeGen.c
+  System.Runtime.InteropServices_CodeGen.c
+  System.IO.FileSystem.Primitives_CodeGen.c
+  System.ComponentModel.TypeConverter_CodeGen.c
+  System.Text.Encoding.Extensions_CodeGen.c
+  System.Text.RegularExpressions_CodeGen.c
+  UnityEngine.SpriteShapeModule_CodeGen.c
+  UnityEngine.AssetBundleModule_CodeGen.c
+  System.Reflection.Extensions_CodeGen.c
+  System.Reflection.Primitives_CodeGen.c
+  System.Runtime.Extensions_CodeGen.c
+  System.Diagnostics.Debug_CodeGen.c
+  System.Diagnostics.Tracing_CodeGen.c
+  System.Linq.Expressions_CodeGen.c
+  System.Numerics.Vectors_CodeGen.c
+  System.Runtime.Numerics_CodeGen.c
+  System.Dynamic.Runtime_CodeGen.c
+  System.Xml.ReaderWriter_CodeGen.c
+  System.Runtime.Handles_CodeGen.c
+  Lump_libil2cpp_gc.cpp
+  System.Threading.Tasks_CodeGen.c
+  System.Xml.XmlDocument_CodeGen.c
+  System.IO.Compression_CodeGen.c
+  System.Threading.Timer_CodeGen.c
+  System.Net.Primitives_CodeGen.c
+  System.Globalization_CodeGen.c
+  System.Text.Encoding_CodeGen.c
+  System.IO.FileSystem_CodeGen.c
+  System.Xml.XDocument_CodeGen.c
+  System.Collections_CodeGen.c
+  System.ObjectModel_CodeGen.c
+  System.Reflection_CodeGen.c
+  System.Threading_CodeGen.c
+  System.Runtime_CodeGen.c
+  netstandard_CodeGen.c
+  System.Linq_CodeGen.c
+  UnityEngine_CodeGen.c
+  System.IO_CodeGen.c
+  Lump_libil2cpp_debugger.cpp
+  Lump_libil2cpp_os.cpp
+  il2cpp-runtime-stats.cpp
+  Lump_libil2cpp_vm.cpp
+  Lump_libil2cpp_codegen.cpp
+  ObjectFiles: 896 of which compiled: 896
+  	Time Compile: 18937 milliseconds Generics.cpp
+  	Time Compile: 17522 milliseconds Generics__1.cpp
+  	Time Compile: 12888 milliseconds Il2CppCCWs__179.cpp
+  	Time Compile: 12519 milliseconds Il2CppPCCWMethods.cpp
+  	Time Compile: 12403 milliseconds Il2CppInvokerTable.cpp
+  	Time Compile: 12307 milliseconds Il2CppCCWs__181.cpp
+  	Time Compile: 11046 milliseconds Unity.TextMeshPro__4.cpp
+  	Time Compile: 10958 milliseconds Il2CppCCWs__180.cpp
+  	Time Compile: 10371 milliseconds Il2CppCCWs__209.cpp
+  	Time Compile: 9378 milliseconds Il2CppCCWs__207.cpp
+  Total compilation time: 123909 milliseconds.
+  C:\Users\kgy\Desktop\_build\build\obj\il2cppOutputProject\ARM64\Master\linkresult_DEA5B1C26967F5CE087D3E056436DB9D\GameAssembly.lib ���̺귯�� �� C:\Users\kgy\Desktop\_build\build\obj\il2cppOutputProject\ARM64\Master\linkresult_DEA5B1C26967F5CE087D3E056436DB9D\GameAssembly.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+  Total link time: 14099 milliseconds.
+  Cleaned up 1 object files.
