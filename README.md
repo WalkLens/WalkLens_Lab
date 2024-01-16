@@ -25,7 +25,7 @@
   - 2023.11 ~ 
  ### 개발 환경
   - `Unity`
-  - `Photon`
+  - `Photon PUN 2`
   - `Mixed Reality Toolkit`
   - `Firebase(수정 예정)`
   - `Reality Collective`
