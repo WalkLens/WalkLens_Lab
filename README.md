@@ -27,7 +27,7 @@
   - `Unity`
   - `Photon PUN 2`
   - `Mixed Reality Toolkit`
-  - `Firebase(수정 예정)`
+  - `Azure Storage`
   - `Reality Collective`
   - `Microsoft Azure Services`
   - `HoloLens 2`
