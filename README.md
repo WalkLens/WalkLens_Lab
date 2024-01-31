@@ -38,25 +38,25 @@
 ## 주요 기능 🛠
  ### 1. Identification
  ![image](https://github.com/WalkLens/WalkLens_Lab/assets/72248342/5910dd82-60b9-4912-a1bd-35a0545cae4b)
- - Supervisor, Student 선택 가능
- - Student는 자신의 이름을 입력하도록 합니다.
- - 선택 이후에는 PUN 2 서버에 접속합니다.
+ - **Supervisor**, **Student** 선택 가능
+ - **Student**는 자신의 이름을 입력하도록 합니다.
+ - 선택 이후에는 `PUN 2` 서버에 접속합니다.
  ### 2. QR-Recognition
  ![image](https://github.com/WalkLens/WalkLens_Lab/assets/72248342/c4c5a520-1bb6-4651-8ffb-1153afbf9353)
  - 홀로렌즈의 카메라를 통해 QR 코드를 인식하면 Lecture용 UI가 뜨도록 합니다.
  ### 3. Lecture
  ![image](https://github.com/WalkLens/WalkLens_Lab/assets/72248342/24abb866-43fa-41bf-85cb-bcb72248fa46)
- - DB에 저장된 영상을 실행할 수 있도록 합니다.
- - 왼쪽의 Contents UI에서 Lecture 선택이 가능합니다.
+ - DB(`Azure Storage`)에 저장된 영상을 실행할 수 있도록 합니다.
+ - 왼쪽의 **Contents UI**에서 Lecture 선택이 가능합니다.
  ### 4. Utility Tools
  ![image](https://github.com/WalkLens/WalkLens_Lab/assets/72248342/5eff8ade-5716-43b1-806e-a4977340d99f)
  - 왼손을 위로 올리는 Haptic을 통해 여러가지 부가 기능들을 제공할 수 있도록 합니다.
  #### 1. Chat
  ![image](https://github.com/WalkLens/WalkLens_Lab/assets/72248342/5844eb48-4ac6-49c5-a6bc-ce63bad853a7)
- - Azure Cognivie Service의 Speech To Text 기능을 이용해 음성인식 채팅을 지원합니다.
+ - `Azure Cognivie Service`의 `Speech To Text` 기능을 이용해 음성인식 채팅을 지원합니다.
  #### 2. Calculator
  ![image](https://github.com/WalkLens/WalkLens_Lab/assets/72248342/64039228-99a0-470a-b714-5ac594c70677)
- - 화학 실험실용 몰농도 계산기를 지원합니다.
+ - **화학 실험실용 몰농도 계산기**를 지원합니다.
    
 
 
